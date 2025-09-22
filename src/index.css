@@ -1,0 +1,11 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Julius+Sans+One&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400
+}
+
+@import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
+
+
