@@ -1,13 +1,18 @@
 import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Context/context";
-import { HomeIcon, BackpackIcon, ExitIcon, EnterIcon} from "@radix-ui/react-icons";
+import {
+  HomeIcon,
+  BackpackIcon,
+  ExitIcon,
+  EnterIcon,
+} from "@radix-ui/react-icons";
 import { HiOutlineMenu } from "react-icons/hi";
 import { ShoppingCart } from "lucide-react";
 import { Key } from "lucide-react";
-import "../Navbar/navbar.css"
+import "../Navbar/navbar.css";
 
-function Navbar({textColor},) {
+function Navbar({ textColor }) {
   const { login, setLogin } = useContext(AuthContext);
   const navigate = useNavigate();
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -21,13 +26,15 @@ function Navbar({textColor},) {
 
   return (
     <nav className="w-full z-50 lg:pt-5">
-      <div className={`flex justify-between items-center p-4 bg-transparent ${textColor}`}
->
-        
+      <div
+        className={`flex justify-between items-center p-4 bg-transparent ${textColor}`}
+      >
         {/* Logo Left */}
         <div className="flex justify-start">
-<h2 className="hero-logo-text text-3xl  text-white px-2 py-1 rounded-3xl bg-red-500">Qivo</h2>        </div>
-        
+          <h2 className="hero-logo-text text-3xl  text-white px-2 py-1 rounded-3xl bg-red-500">
+            Qivo
+          </h2>
+        </div>
 
         {/* Desktop Menu Right */}
         <ul className="hidden md:flex gap-6 items-center">
@@ -60,7 +67,8 @@ function Navbar({textColor},) {
           ) : (
             <>
               <li className="flex items-center gap-1">
-                <EnterIcon className="h-4 w-4" /> <Link to="/login">Log In</Link>
+                <EnterIcon className="h-4 w-4" />{" "}
+                <Link to="/login">Log In</Link>
               </li>
               <li className="flex items-center gap-1">
                 <Key className="h-4 w-4" /> <Link to="/register">Register</Link>
@@ -127,11 +135,15 @@ function Navbar({textColor},) {
             <>
               <li className="flex items-center gap-2 ">
                 <EnterIcon className="h-5 w-5" />{" "}
-                <Link onClick={() => setDrawerOpen(false)} to="/login">Log In</Link>
+                <Link onClick={() => setDrawerOpen(false)} to="/login">
+                  Log In
+                </Link>
               </li>
               <li className="flex items-center gap-2 ">
                 <Key className="h-5 w-5" />{" "}
-                <Link onClick={() => setDrawerOpen(false)} to="/register">Register</Link>
+                <Link onClick={() => setDrawerOpen(false)} to="/register">
+                  Register
+                </Link>
               </li>
             </>
           )}

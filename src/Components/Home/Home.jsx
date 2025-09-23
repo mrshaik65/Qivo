@@ -1,21 +1,20 @@
 // Home.jsx
 import Navbar from "../Navbar/Nabar";
 import "./Home.css";
-import HomeHeroImg from "./hero.png";
+import HomeHeroImg from "./IMG_20250922_124502.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Img1 from "./carsouel-lg-1.jpg";
-import Img2 from "./carsouel-lg-2.jpg";
-import Img3 from "./carsouel-lg-3.jpg";
-import Img4 from "./carsouel-lg-4.jpg";
+import Img1 from "./Picsart_25-09-20_20-55-44-843_LE_upscale_ultra_x4_size_of_changes_100_intensity_100.webp";
+import Img2 from "./Picsart_25-09-22_06-58-31-053.webp";
+import Img3 from "./Picsart_25-09-20_21-18-04-884_LE_upscale_ultra_size_of_changes_100_intensity_100.webp";
+import Img4 from "./carousel-lg.webp";
 
-import Img5 from "./carousel-sm-1.png";
-import Img6 from "./carousel-sm-2.png";
-import Img7 from "./carousel-sm-3.jpg";
-import Img8 from "./carousel-sm-4.png";
+import Img5 from "./Gemini_Generated_Image_9vrv2a9vrv2a9vrv.webp";
+import Img6 from "./Gemini_Generated_Image_ob173qob173qob17.webp";
+import Img7 from "./Gemini_Generated_Image_sptmuzsptmuzsptm.webp";
+import Img8 from "./c20cae89-c083-4fa6-9bb7-c26cfa591fb9.webp";
 
-import FooterLogo from "./Qivo-white.png";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -54,7 +53,7 @@ function Home() {
   return (
     <>
       {/* Hero Section */}
-      <div className="home-bg min-h-screen bg-[#F24445]">
+      <div className="home-bg max-h-screen bg-[#F24445] ">
         <Navbar textColor="text-white" />
 
         <div className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10 px-5 md:px-20  md:py-7 lg:py-10">
@@ -177,8 +176,10 @@ function Home() {
 
       {/* Footer */}
       <footer className="w-full px-6 py-10 text-gray-300 bg-gray-900 lg:px-20">
-        <div>
-          <img className="h-10 -ml-1.5 mb-5" src={FooterLogo} alt="" />
+        <div className="flex justify-start">
+          <h2 className="hero-logo-text text-3xl  text-white px-2 py-1 rounded-3xl mb-5 -ml-2 bg-red-500">
+            Qivo
+          </h2>
         </div>
 
         <div className="grid gap-10 mx-auto max-w-7xl sm:grid-cols-2 lg:grid-cols-4">

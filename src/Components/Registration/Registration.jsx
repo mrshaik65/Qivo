@@ -88,8 +88,8 @@ function Registration() {
 
   return (
     <>
-    <div className="registration-jsx h-screen">
-      <Navbar textColor="text-white"/>
+    <div className="h-screen">
+      <Navbar textColor="text-black"/>
       <div className="flex justify-center flex-col items-center mt-20 ">
         <form
           action=""

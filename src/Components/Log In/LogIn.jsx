@@ -72,7 +72,7 @@ function LogIn() {
 
   return (
     <>
-    <div className="login-bg h-screen">
+    <div className="h-screen">
       <Navbar textColor="text-black"/>
       <div className="flex justify-center flex-col items-center mt-30 ">
         <form
