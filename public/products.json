@@ -1,506 +1,1593 @@
 [
-    {
-      "id": 1,
-      "title": "Lightweight Unisex Mesh Sneakers for Daily Wear",
-      "price": 1999.79,
-      "actual_price": 1599.83,
-      "discount": "20% off",
-      "brand": "Nike",
-      "rating": 4.6,
-      "rating_category": "Excellent",
-      "number_of_ratings": 1000,
-      "material": "Mesh",
-      "description": "Lightweight unisex sneakers for daily wear. Designed with breathable mesh for ventilation and cushioned soles for superior comfort during sports or casual outings.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073606.jpg",
-      "sizes": [7, 8, 9, 10],
-      "purchase_count": 2500
-    },
+  {
+    "id": 1,
+    "name": " Power Bank 10000mAh with Fast Charging Support",
+    "discounted_price": 2549.74,
+    "price": 2999.69,
+    "discount": "15%",
+    "image": "./images/Power Bank 10000mAh with Fast Charging Support.webp",
+    "description": "Keep your devices charged on the go with this compact power bank. With 10,000mAh capacity, dual USB outputs, and fast charging support, it’s an essential companion for travel and daily use.",
+    "brand": "Volta",
+    "rating": 4.1,
+    "rating_category": "Good",
+    "number_of_ratings": 890,
+    "purchase_count": 1245,
+    "delivery_estimate": "4-5 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user1.jpg",
+        "user_name": "Ethan M.",
+        "review_title": "Great Product, Solid Performance",
+        "date_posted": "2025-09-01",
+        "review": "Solid power bank. Charges my phone quickly and the size is perfect for my bag. Good value for money.",
+        "review_rating": 4.1,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user2.jpg",
+        "user_name": "Olivia J.",
+        "review_title": "Reliable and Fast",
+        "date_posted": "2025-09-05",
+        "review": "Very reliable, especially for travel. It holds a charge well and the fast charging is a huge plus.",
+        "review_rating": 4.4,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user3.jpg",
+        "user_name": "Jacob",
+        "review_title": "Works Perfectly",
+        "date_posted": "2025-09-09",
+        "review": "Works perfectly. No complaints at all, it's a great product.",
+        "review_rating": 4.3,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Power & Charging", "Power Banks"]
+  },
+  {
+    "id": 2,
+    "name": "Classic Analog Wrist Watch with Leather Strap",
+    "discounted_price": 4049.72,
+    "price": 4499.69,
+    "discount": "10%",
+    "image": "./images/Classic Analog Wrist Watch with Leather Strap.webp",
+    "description": "A timeless classic, this analog wristwatch features a durable leather strap and a premium dial finish. It combines elegance with reliability, making it suitable for both daily wear and special occasions.",
+    "brand": "Chronos",
+    "rating": 2.2,
+    "rating_category": "Poor",
+    "number_of_ratings": 560,
+    "purchase_count": 789,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user4.jpg",
+        "user_name": "Mason S.",
+        "review_title": "Disappointing Quality",
+        "date_posted": "2025-08-20",
+        "review": "The strap broke after just a few weeks. Disappointed with the quality, it doesn't seem very durable.",
+        "review_rating": 1.5,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user5.jpg",
+        "user_name": "Chloe B.",
+        "review_title": "Inconsistent Timekeeping",
+        "date_posted": "2025-08-25",
+        "review": "Looks nice, but the timekeeping is inconsistent. It falls behind sometimes, which is a major issue for a watch.",
+        "review_rating": 2.1,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user6.jpg",
+        "user_name": "Liam D.",
+        "review_title": "Feels Cheap",
+        "date_posted": "2025-08-30",
+        "review": "Feels like a very cheaply made watch. The face got scratched easily and it feels very cheap.",
+        "review_rating": 1.7,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user7.jpg",
+        "user_name": "Sophia G.",
+        "review_title": "Waste of Money",
+        "date_posted": "2025-09-02",
+        "review": "Very poor quality. I regret buying this watch, it stopped working in a month.",
+        "review_rating": 1.2,
+        "review_rating_category": "Poor"
+      }
+    ],
+    "category": ["Fashion & Accessories", "Watches"]
+  },
+  {
+    "id": 3,
+    "name": "Mini  Bluetooth Keyboard for Multi‑Device Typing",
+    "discounted_price": 2799.99,
+    "price": 3499.99,
+    "discount": "20%",
+    "image": "./images/Mini  Bluetooth Keyboard for Multi‑Device Typing.webp",
+    "description": "Type with ease on this lightweight mini Bluetooth keyboard, compatible with laptops, tablets, and smartphones. Its compact design makes it ideal for travel and on‑the‑go productivity.",
+    "brand": "Tekno",
+    "rating": 4.5,
+    "rating_category": "Excellent",
+    "number_of_ratings": 1120,
+    "purchase_count": 1450,
+    "delivery_estimate": "5-6 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user8.jpg",
+        "user_name": "Noah L.",
+        "review_title": "Fantastic Keyboard!",
+        "date_posted": "2025-08-22",
+        "review": "This keyboard is fantastic! Super responsive and the compact size is perfect for my tablet.",
+        "review_rating": 4.8,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user9.jpg",
+        "user_name": "Ava",
+        "review_title": "Perfect for On-the-Go",
+        "date_posted": "2025-08-25",
+        "review": "I love the feel of the keys. It connects instantly to my phone and tablet, making work on the go so much easier.",
+        "review_rating": 4.6,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user10.jpg",
+        "user_name": "Benjamin C.",
+        "review_title": "Excellent and Durable",
+        "date_posted": "2025-08-28",
+        "review": "Extremely pleased with this keyboard. It’s lightweight yet durable and the battery lasts a long time.",
+        "review_rating": 4.7,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user11.jpg",
+        "user_name": "Emily",
+        "review_title": "Seamless and Comfortable",
+        "date_posted": "2025-09-01",
+        "review": "Best  keyboard I've owned. Typing is very comfortable and the Bluetooth connection is seamless.",
+        "review_rating": 4.9,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 5,
+        "user_pic": "/images/users/user12.jpg",
+        "user_name": "William T.",
+        "review_title": "Perfect for My Needs",
+        "date_posted": "2025-09-05",
+        "review": "Perfect for my needs! Highly functional and easy to carry around.",
+        "review_rating": 4.5,
+        "review_rating_category": "Excellent"
+      }
+    ],
+    "category": ["Electronics", "Computer Accessories", "Keyboards"]
+  },
+  {
+    "id": 4,
+    "name": "Over‑Ear Headphones with Deep Bass and Cushioned Earpads",
+    "discounted_price": 3799.61,
+    "price": 3999.59,
+    "discount": "5%",
+    "image": "./images/Over‑Ear Headphones with Deep Bass and Cushioned Earpads.webp",
+    "description": "Immerse yourself in rich, powerful sound with these over‑ear headphones. They feature soft cushioned earpads, deep bass performance, and noise isolation to deliver a premium audio experience for music lovers and gamers.",
+    "brand": "Aura",
+    "rating": 3.7,
+    "rating_category": "Average",
+    "number_of_ratings": 2010,
+    "purchase_count": 2500,
+    "delivery_estimate": "7-8 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user13.jpg",
+        "user_name": "James K.",
+        "review_title": "Decent Sound, Poor Isolation",
+        "date_posted": "2025-08-15",
+        "review": "Decent sound quality, but the noise isolation isn't as good as I'd hoped. They are comfortable for long periods, though.",
+        "review_rating": 3.1,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user14.jpg",
+        "user_name": "Abigail R.",
+        "review_title": "Okay for the Price",
+        "date_posted": "2025-08-18",
+        "review": "The bass is good, but the overall sound is a bit flat. It's okay for the price, but not amazing.",
+        "review_rating": 3.4,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user15.jpg",
+        "user_name": "Alexander B.",
+        "review_title": "Disappointing Quality",
+        "date_posted": "2025-08-22",
+        "review": "The material feels a bit cheap. Sound is average, but you get what you pay for.",
+        "review_rating": 2.8,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user16.jpg",
+        "user_name": "Chloe F.",
+        "review_title": "Just Okay",
+        "date_posted": "2025-08-26",
+        "review": "They are comfortable, but the sound quality is just okay. I was expecting more.",
+        "review_rating": 3.2,
+        "review_rating_category": "Average"
+      }
+    ],
+    "category": ["Electronics", "Audio", "Headphones & Earbuds"]
+  },
+  {
+    "id": 5,
+    "name": "Handheld Electronic Calculator for Daily Calculations",
+    "discounted_price": 2639.99,
+    "price": 2999.99,
+    "discount": "12%",
+    "image": "./images/Handheld Electronic Calculator for Daily Calculations.webp",
+    "description": "A reliable electronic calculator designed for students and professionals. It features a large display, durable keys, and quick processing for solving everyday mathematical tasks.",
+    "brand": "ProCalc",
+    "rating": 3.2,
+    "rating_category": "Average",
+    "number_of_ratings": 450,
+    "purchase_count": 680,
+    "delivery_estimate": "5-6 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user17.jpg",
+        "user_name": "Jacob",
+        "review_title": "Gets the Job Done",
+        "date_posted": "2025-09-03",
+        "review": "It gets the job done. The buttons are a bit mushy, but for basic calculations, it works fine.",
+        "review_rating": 3.0,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user18.jpg",
+        "user_name": "Mia F.",
+        "review_title": "Standard and Reliable",
+        "date_posted": "2025-09-08",
+        "review": "Standard calculator. Nothing special, but it's reliable. Wish the display was a little clearer.",
+        "review_rating": 3.3,
+        "review_rating_category": "Average"
+      }
+    ],
+    "category": ["Electronics", "Office & School Supplies", "Calculators"]
+  },
+  {
+    "id": 6,
+    "name": "Marshall Compact  Bluetooth Speaker",
+    "price": 4999.59,
+    "discounted_price": 4099.66,
+    "discount": "18%",
+    "image": "./images/Marshall Compact  Bluetooth Speaker.webp",
+    "description": "Bring music wherever you go with this Marshall  Bluetooth speaker. It delivers clear, rich sound with enhanced bass, a long-lasting battery, and a compact design that fits easily in a backpack.",
+    "brand": "Marshall",
+    "rating": 3.1,
+    "rating_category": "Average",
+    "number_of_ratings": 1800,
+    "purchase_count": 2100,
+    "delivery_estimate": "4-5 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user19.jpg",
+        "user_name": "William P.",
+        "review_title": "Decent Sound, Good Battery",
+        "date_posted": "2025-09-01",
+        "review": "The sound is pretty loud, but it distorts at high volumes. The battery life is good, though.",
+        "review_rating": 3.5,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user20.jpg",
+        "user_name": "Isabella V.",
+        "review_title": "Okay for the Price",
+        "date_posted": "2025-09-04",
+        "review": "It’s a decent speaker for the price. Not the best sound, but it's very  and sturdy.",
+        "review_rating": 3.1,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user21.jpg",
+        "user_name": "David",
+        "review_title": "Weak Bass",
+        "date_posted": "2025-09-07",
+        "review": "The bass is a little weak. It's fine for background music, but not for a party.",
+        "review_rating": 2.9,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user22.jpg",
+        "user_name": "Zoe P.",
+        "review_title": "Just Okay",
+        "date_posted": "2025-09-10",
+        "review": "It works fine, but the sound quality isn't what I was expecting. It's okay.",
+        "review_rating": 3.2,
+        "review_rating_category": "Average"
+      }
+    ],
+    "category": ["Electronics", "Audio", "Speakers"]
+  },
 
-       {
-      "id": 2,
-      "title": "Stylish Men's Faux Leather Derby Shoes",
-      "price": 2799.49,
-      "actual_price": 2519.54,
-      "discount": "10% off",
-      "brand": "Hush Puppies",
-      "rating": 3.8,
-      "rating_category": "Average",
-      "number_of_ratings": 288,
-      "material": "Faux Leather",
-      "description": "Stylish Derby shoes perfect for business meetings. Featuring a comfortable fit with high-quality faux leather and a sturdy sole for long-lasting wear. These shoes balance elegance and everyday practicality.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073647.jpg",
-      "sizes": [7, 8],
-      "purchase_count": 720
-    },
-
-    {
-      "id": 3,
-      "title": "Trendy Women's Sandals for Casual Outings",
-      "price": 1599.59,
-      "actual_price": 1439.63,
-      "discount": "10% off",
-      "brand": "Bata",
-      "rating": 4.3,
-      "rating_category": "Good",
-      "number_of_ratings": 720,
-      "material": "Synthetic",
-      "description": "Trendy sandals for daily use with breathable design and comfortable straps. Perfect for summer and casual outings, combining style and functionality.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114519.jpg",
-      "sizes": [7, 8, 9, 10, 11],
-      "purchase_count": 1800
-    },
-
-    {
-      "id": 4,
-      "title": "Comfortable Unisex Rubber Flip-Flops",
-      "price": 499.89,
-      "actual_price": 349.92,
-      "discount": "30% off",
-      "brand": "Crocs",
-      "rating": 4.0,
-      "rating_category": "Good",
-      "number_of_ratings": 1280,
-      "material": "Rubber",
-      "description": "Comfort flip-flops made from lightweight rubber, ideal for beach days, poolside lounging, or casual wear around the house.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114648.jpg",
-      "sizes": [9, 10, 11],
-      "purchase_count": 3200
-    },
-
-    {
-      "id": 5,
-      "title": "Elegant Leather Brogues with Decorative Perforations",
-      "price": 4499.59,
-      "actual_price": 3149.71,
-      "discount": "30% off",
-      "brand": "Bata",
-      "rating": 4.1,
-      "rating_category": "Good",
-      "number_of_ratings": 232,
-      "material": "Leather",
-      "description": "Elegant Brogues with decorative perforations. Made from soft leather, these shoes add a touch of sophistication to any outfit. Ideal for semi-formal occasions or casual office wear.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073714.jpg",
-      "sizes": [8, 9, 10],
-      "purchase_count": 580
-    },
-
-    {
-      "id": 6,
-      "title": "Elegant Women's Synthetic Stilettos",
-      "price": 3499.39,
-      "actual_price": 2799.51,
-      "discount": "20% off",
-      "brand": "Catwalk",
-      "rating": 4.4,
-      "rating_category": "Excellent",
-      "number_of_ratings": 188,
-      "material": "Synthetic",
-      "description": "Elegant stilettos that elevate any outfit. Featuring a sleek design with comfortable padding, perfect for parties, formal events, and evening wear.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074048.jpg",
-      "sizes": [7, 8],
-      "purchase_count": 470
-    },
-
-    {
-      "id": 7,
-      "title": "Sleek Men's Patent Leather Monk Strap Shoes",
-      "price": 3499.29,
-      "actual_price": 2449.5,
-      "discount": "30% off",
-      "brand": "Clarks",
-      "rating": 2.5,
-      "rating_category": "Below Average",
-      "number_of_ratings": 260,
-      "material": "Patent Leather",
-      "description": "Sleek monk straps with buckle closure, crafted from shiny patent leather. These shoes are a statement piece for formal events and stylish office wear, combining classic design with modern appeal.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073807.jpg",
-      "sizes": [7, 8, 9, 10, 11],
-      "purchase_count": 650
-    },
-
-    {
-      "id": 8,
-      "title": "Cozy Unisex Rubber Slippers for Home Use",
-      "price": 599.69,
-      "actual_price": 419.78,
-      "discount": "30% off",
-      "brand": "Paragon",
-      "rating": 3.7,
-      "rating_category": "Average",
-      "number_of_ratings": 600,
-      "material": "Rubber",
-      "description": "Comfortable slippers designed for home use with soft soles and easy slip-on design. Keep your feet cozy and relaxed indoors.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114812.jpg",
-      "sizes": [8],
-      "purchase_count": 1500
-    },
-    {
-      "id": 9,
-      "title": "Comfortable Fabric Ballet Flats for Women",
-      "price": 1399.49,
-      "actual_price": 1119.59,
-      "discount": "20% off",
-      "brand": "Liberty",
-      "rating": 4.2,
-      "rating_category": "Good",
-      "number_of_ratings": 460,
-      "material": "Fabric",
-      "description": "Comfortable ballet flats made with soft fabric and cushioned soles. Ideal for everyday wear, providing elegance without sacrificing comfort.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114543.jpg",
-      "sizes": [8, 9, 10],
-      "purchase_count": 1150
-    },
-
-    {
-      "id": 10,
-      "title": "Classic Men's Genuine Leather Oxford Shoes",
-      "price": 2990.99,
-      "actual_price": 2691.89,
-      "discount": "10% off",
-      "brand": "Clarks",
-      "rating": 4.5,
-      "rating_category": "Excellent",
-      "number_of_ratings": 340,
-      "material": "Genuine Leather",
-      "description": "Classic Oxford shoes for formal office wear. Crafted from premium genuine leather, offering durability and style. Perfect for business meetings and formal events, providing excellent comfort throughout the day.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073525.jpg",
-      "sizes": [9],
-      "purchase_count": 850
-    },
-    {
-      "id": 11,
-      "title": "Stylish Women's Synthetic Kitten Heels",
-      "price": 1999.69,
-      "actual_price": 1199.81,
-      "discount": "40% off",
-      "brand": "Metro",
-      "rating": 2.8,
-      "rating_category": "Below Average",
-      "number_of_ratings": 108,
-      "material": "Synthetic",
-      "description": "Stylish kitten heels offering subtle elegance. Lightweight and comfortable, these heels are perfect for both day and evening wear.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074343.jpg",
-      "sizes": [9, 10],
-      "purchase_count": 270
-    },
-
-    {
-      "id": 12,
-      "title": "Classic Unisex Canvas Shoes for Everyday Comfort",
-      "price": 1599.39,
-      "actual_price": 1119.57,
-      "discount": "30% off",
-      "brand": "Converse",
-      "rating": 4.5,
-      "rating_category": "Excellent",
-      "number_of_ratings": 560,
-      "material": "Canvas",
-      "description": "Classic unisex canvas shoes with a timeless design. Ideal for everyday wear, offering comfort and durability with a flexible sole and breathable fabric.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074452.jpg",
-      "sizes": [7, 9, 11],
-      "purchase_count": 1400
-    },
-
-    {
-      "id": 13,
-      "title": "High-Grip Women Hiking Boots for Treks",
-      "price": 5499.59,
-      "actual_price": 4399.67,
-      "discount": "20% off",
-      "brand": "Quechua",
-      "rating": 4.7,
-      "rating_category": "Excellent",
-      "number_of_ratings": 500,
-      "material": "Synthetic",
-      "description": "Durable hiking boots with excellent grip and ankle support. Designed for rugged terrains and long trekking trips, offering comfort and protection.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074122.jpg",
-      "sizes": [7, 8, 9],
-      "purchase_count": 1250
-    },
-
-    {
-      "id": 14,
-      "title": "Stylish Men's Suede Chukka Boots",
-      "price": 3899.79,
-      "actual_price": 2729.85,
-      "discount": "30% off",
-      "brand": "Clarks",
-      "rating": 4.2,
-      "rating_category": "Good",
-      "number_of_ratings": 236,
-      "material": "Suede",
-      "description": "Stylish Chukka boots made from soft suede. These boots combine comfort and fashion, suitable for casual wear and smart-casual events.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074140.jpg",
-      "sizes": [7, 8, 9, 10, 11],
-      "purchase_count": 590
-    },
-
-    {
-      "id": 15,
-      "title": "Casual Canvas Slip-On Shoes for Men",
-      "price": 1799.59,
-      "actual_price": 1079.75,
-      "discount": "40% off",
-      "brand": "Sparx",
-      "rating": 1.9,
-      "rating_category": "Poor",
-      "number_of_ratings": 392,
-      "material": "Canvas",
-      "description": "Casual slip-on shoes for easy wear. Crafted with lightweight canvas material, these shoes are perfect for quick errands, casual hangouts, or summer days.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073855.jpg",
-      "sizes": [9, 10],
-      "purchase_count": 980
-    },
-    {
-      "id": 16,
-      "title": "Rugged Women Leather Combat Boots",
-      "price": 4599.69,
-      "actual_price": 3679.75,
-      "discount": "20% off",
-      "brand": "Woodland",
-      "rating": 4.6,
-      "rating_category": "Excellent",
-      "number_of_ratings": 356,
-      "material": "Leather",
-      "description": "Rugged combat boots designed for durability and comfort. Perfect for outdoor adventures or a tough urban look, with sturdy soles and reinforced stitching.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074212.jpg",
-      "sizes": [10, 11],
-      "purchase_count": 890
-    },
-
-    {
-      "id": 17,
-      "title": "Classic Men's Leather Cowboy Boots",
-      "price": 5999.49,
-      "actual_price": 4199.64,
-      "discount": "30% off",
-      "brand": "Wrangler",
-      "rating": 2.2,
-      "rating_category": "Below Average",
-      "number_of_ratings": 112,
-      "material": "Leather",
-      "description": "Classic cowboy boots made from rich leather with traditional stitching. Ideal for western style lovers and outdoor wear, combining style and durability.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074106.jpg",
-      "sizes": [9],
-      "purchase_count": 280
-    },
-    {
-      "id": 18,
-      "title": "Comfortable Suede Slip-On Loafers for Men",
-      "price": 2399.39,
-      "actual_price": 2159.45,
-      "discount": "10% off",
-      "brand": "Red Tape",
-      "rating": 4.4,
-      "rating_category": "Excellent",
-      "number_of_ratings": 440,
-      "material": "Suede",
-      "description": "Comfortable slip-on loafers made from premium suede. Perfect for casual outings or relaxed office days. Designed to provide all-day comfort with a flexible sole and breathable lining.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073736.jpg",
-      "sizes": [7, 9, 10, 11],
-      "purchase_count": 1100
-    },
-
-    {
-      "id": 19,
-      "title": "Classic Women's Leather Pumps for Formal Wear",
-      "price": 2999.29,
-      "actual_price": 2099.5,
-      "discount": "30% off",
-      "brand": "Metro",
-      "rating": 3.9,
-      "rating_category": "Average",
-      "number_of_ratings": 244,
-      "material": "Leather",
-      "description": "Classic pumps suitable for formal wear. Made from high-quality leather with a comfortable heel height, perfect for office and social events.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074028.jpg",
-      "sizes": [8, 9, 10],
-      "purchase_count": 610
-    },
-
-    {
-      "id": 20,
-      "title": "Lightweight Unisex Running Shoes with Shock-Absorbing Soles",
-      "price": 2999.49,
-      "actual_price": 2399.59,
-      "discount": "20% off",
-      "brand": "Nike",
-      "rating": 4.7,
-      "rating_category": "Excellent",
-      "number_of_ratings": 1160,
-      "material": "Mesh",
-      "description": "Lightweight running shoes designed with breathable mesh and shock-absorbing soles. Ideal for jogging, training, and everyday athletic activities.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114859.jpg",
-      "sizes": [8, 9, 10],
-      "purchase_count": 2900
-    },
-
-    {
-      "id": 21,
-      "title": "Comfortable Women's Leather Block Heels",
-      "price": 2399.79,
-      "actual_price": 1919.83,
-      "discount": "20% off",
-      "brand": "Catwalk",
-      "rating": 4.1,
-      "rating_category": "Good",
-      "number_of_ratings": 156,
-      "material": "Leather",
-      "description": "Comfortable block heels with sturdy support. Designed for long hours of wear, perfect for office or casual outings with a fashionable touch.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074409.jpg",
-      "sizes": [8],
-      "purchase_count": 390
-    },
-
-    {
-      "id": 22,
-      "title": "Durable Unisex Leather Chelsea Boots",
-      "price": 4999.89,
-      "actual_price": 3499.92,
-      "discount": "30% off",
-      "brand": "Woodland",
-      "rating": 4.5,
-      "rating_category": "Excellent",
-      "number_of_ratings": 304,
-      "material": "Leather",
-      "description": "Durable Chelsea boots suitable for all genders. Crafted from premium leather with elastic side panels for easy wear and a sleek silhouette, perfect for both casual and semi-formal occasions.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074156.jpg",
-      "sizes": [8, 9, 10, 11],
-      "purchase_count": 760
-    },
-
-    {
-      "id": 23,
-      "title": "Trendy Women's Synthetic Wedge Heels",
-      "price": 2699.89,
-      "actual_price": 1889.92,
-      "discount": "30% off",
-      "brand": "Bata",
-      "rating": 3.1,
-      "rating_category": "Average",
-      "number_of_ratings": 212,
-      "material": "Synthetic",
-      "description": "Trendy wedge heels combining height and comfort. Made from durable synthetic material, these wedges are ideal for casual and semi-formal occasions.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074001.jpg",
-      "sizes": [7, 9, 10, 11],
-      "purchase_count": 530
-    },
-    {
-      "id": 24,
-      "title": "Trendy Women's Leather Slip-On Mules",
-      "price": 1799.39,
-      "actual_price": 1079.63,
-      "discount": "40% off",
-      "brand": "Catwalk",
-      "rating": 2.1,
-      "rating_category": "Below Average",
-      "number_of_ratings": 140,
-      "material": "Leather",
-      "description": "Trendy mules crafted from soft leather with a slip-on design. Great for casual and semi-formal occasions, offering convenience and style.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114603.jpg",
-      "sizes": [7],
-      "purchase_count": 350
-    },
-
-    {
-      "id": 25,
-      "title": "Fashionable Women's Gladiator Sandals",
-      "price": 2199.29,
-      "actual_price": 1319.57,
-      "discount": "40% off",
-      "brand": "Metro",
-      "rating": 1.5,
-      "rating_category": "Poor",
-      "number_of_ratings": 192,
-      "material": "Synthetic",
-      "description": "Fashion gladiator sandals with adjustable straps for a secure fit. Perfect for summer and festival wear, adding a bold statement to your outfit.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114625.jpg",
-      "sizes": [7, 8],
-      "purchase_count": 480
-    },
- 
-
-    {
-      "id": 26,
-      "title": "Classic Unisex Crocs Clogs for All-Day Comfort",
-      "price": 1999.79,
-      "actual_price": 1799.81,
-      "discount": "10% off",
-      "brand": "Crocs",
-      "rating": 4.5,
-      "rating_category": "Excellent",
-      "number_of_ratings": 840,
-      "material": "Rubber",
-      "description": "Classic Crocs clogs offering all-day comfort with cushioned soles and breathable holes. Perfect for casual wear, gardening, or quick errands.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073520.jpg",
-      "sizes": [7, 8, 9, 10, 11],
-      "purchase_count": 2100
-    },
-
-    {
-      "id": 27,
-      "title": "Trendy Women's Adidas Slides with Cushioned Footbed",
-      "price": 899.59,
-      "actual_price": 629.71,
-      "discount": "30% off",
-      "brand": "Adidas",
-      "rating": 4.3,
-      "rating_category": "Good",
-      "number_of_ratings": 700,
-      "material": "Synthetic",
-      "description": "Trendy Adidas slides with cushioned footbed and quick-dry material. Great for casual wear, gym sessions, or poolside relaxation.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114827.jpg",
-      "sizes": [7, 9],
-      "purchase_count": 1750
-    },
-
-    {
-      "id": 28,
-      "title": "Premium Leather Dress Boots for Men",
-      "price": 3999.89,
-      "actual_price": 3199.91,
-      "discount": "20% off",
-      "brand": "Woodland",
-      "rating": 4.4,
-      "rating_category": "Excellent",
-      "number_of_ratings": 168,
-      "material": "Leather",
-      "description": "Premium dress boots for men made with durable leather. These boots provide great ankle support and a polished look, perfect for colder seasons and formal occasions.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_073831.jpg",
-      "sizes": [8, 9],
-      "purchase_count": 420
-    },
-
-    {
-      "id": 29,
-      "title": "Trendy Women's Fabric Espadrilles with Jute Sole",
-      "price": 1299.29,
-      "actual_price": 1169.36,
-      "discount": "10% off",
-      "brand": "Catwalk",
-      "rating": 3.4,
-      "rating_category": "Average",
-      "number_of_ratings": 124,
-      "material": "Fabric",
-      "description": "Trendy espadrilles for women, featuring a lightweight fabric upper and a comfortable jute sole. Perfect for summer outings and casual beachwear.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_074258.jpg",
-      "sizes": [8],
-      "purchase_count": 310
-    },
-    {
-      "id": 30,
-      "title": "Durable Unisex Training Shoes for Intense Workouts",
-      "price": 2699.39,
-      "actual_price": 1889.57,
-      "discount": "30% off",
-      "brand": "Adidas",
-      "rating": 4.6,
-      "rating_category": "Excellent",
-      "number_of_ratings": 940,
-      "material": "Mesh",
-      "description": "Durable training shoes offering superior support and flexibility. Designed for intense workouts and cross-training, featuring breathable materials for maximum comfort.",
-      "image": "https://raw.githubusercontent.com/mrshaik65/Footwear-API-Products/main/footwear%20images/IMG_20250831_114915.jpg",
-      "sizes": [7, 9, 11, 10],
-      "purchase_count": 2350
-    }
-  ]
+  {
+    "id": 7,
+    "name": "USB Joystick Controller for Smooth Gaming Experience",
+    "discounted_price": 3719.62,
+    "price": 3999.59,
+    "discount": "7%",
+    "image": "./images/USB Joystick Controller for Smooth Gaming Experience.webp",
+    "description": "Enjoy responsive and precise control with this USB gaming joystick. Designed for smooth handling and durability, it enhances your gameplay experience in racing, shooting, and simulation games.",
+    "brand": "GameFlow",
+    "rating": 3.3,
+    "rating_category": "Average",
+    "number_of_ratings": 950,
+    "purchase_count": 1200,
+    "delivery_estimate": "7-8 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user23.jpg",
+        "user_name": "Sam W.",
+        "review_title": "Feels a Bit Cheap",
+        "date_posted": "2025-09-05",
+        "review": "It feels a little cheap. It works, but the buttons are not very responsive for competitive gaming.",
+        "review_rating": 3.1,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user24.jpg",
+        "user_name": "Nora F.",
+        "review_title": "Not Very Precise",
+        "date_posted": "2025-09-09",
+        "review": "It’s okay for casual play. The stick has some dead zones that make precise movements difficult.",
+        "review_rating": 2.6,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user25.jpg",
+        "user_name": "Thomas",
+        "review_title": "Disappointing Build Quality",
+        "date_posted": "2025-09-12",
+        "review": "The build quality could be better. The buttons sometimes stick.",
+        "review_rating": 2.9,
+        "review_rating_category": "Poor"
+      }
+    ],
+    "category": ["Electronics", "Gaming", "Controllers & Joysticks"]
+  },
+  {
+    "id": 8,
+    "name": "Scientific Electronic Calculator with Large Display",
+    "discounted_price": 3114.99,
+    "price": 3499.99,
+    "discount": "11%",
+    "image": "./images/Scientific Electronic Calculator with Large Display.webp",
+    "description": "This scientific calculator is built for students and professionals who need advanced functions. With a large display and durable buttons, it makes solving complex equations easy.",
+    "brand": "ProCalc",
+    "rating": 4.1,
+    "rating_category": "Good",
+    "number_of_ratings": 780,
+    "purchase_count": 950,
+    "delivery_estimate": "5-6 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user26.jpg",
+        "user_name": "Alexander B.",
+        "review_title": "Great for Engineering",
+        "date_posted": "2025-08-28",
+        "review": "Great calculator for my engineering classes. The display is easy to read and it has all the functions I need.",
+        "review_rating": 4.0,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user27.jpg",
+        "user_name": "Emily P.",
+        "review_title": "Excellent and Reliable",
+        "date_posted": "2025-09-02",
+        "review": "Very reliable and well-built. It has held up well through a lot of use. Highly recommend it for students.",
+        "review_rating": 4.5,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user28.jpg",
+        "user_name": "Leo",
+        "review_title": "Solid and Dependable",
+        "date_posted": "2025-09-07",
+        "review": "A solid, dependable calculator. No fancy features, but it's perfect for what it's meant to do.",
+        "review_rating": 4.1,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Office & School Supplies", "Calculators"]
+  },
+  {
+    "id": 9,
+    "name": "Bluetooth Wireless In‑Ear Earbuds with Noise Cancellation for Women",
+    "discounted_price": 4729.99,
+    "price": 5499.99,
+    "discount": "14%",
+    "image": "./images/Bluetooth Wireless In‑Ear Earbuds with Noise Cancellation for Women.webp",
+    "description": "Experience high-quality wireless sound with these Bluetooth earbuds, designed for comfort and portability. They feature advanced noise cancellation technology, long battery life, and a compact charging case that fits easily in your pocket.",
+    "brand": "Aura",
+    "rating": 4.6,
+    "rating_category": "Excellent",
+    "number_of_ratings": 1500,
+    "purchase_count": 1800,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user29.jpg",
+        "user_name": "Daniel W.",
+        "review_title": "Incredible Noise Cancellation",
+        "date_posted": "2025-09-01",
+        "review": "Amazing sound quality and the noise cancellation is incredible. Perfect for my daily commute.",
+        "review_rating": 4.9,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user30.jpg",
+        "user_name": "Charlotte L.",
+        "review_title": "Best Earbuds I've Owned",
+        "date_posted": "2025-09-04",
+        "review": "These are the best earbuds I've owned. The battery lasts forever and they are so comfortable.",
+        "review_rating": 4.7,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user31.jpg",
+        "user_name": "Jack",
+        "review_title": "Love These!",
+        "date_posted": "2025-09-08",
+        "review": "Love these! They are easy to pair and the sound is crystal clear. The noise cancellation is a huge plus.",
+        "review_rating": 4.6,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user32.jpg",
+        "user_name": "Lily B.",
+        "review_title": "Worth Every Penny",
+        "date_posted": "2025-09-12",
+        "review": "Worth every penny. The audio quality is fantastic and they fit my ears perfectly. Couldn't be happier.",
+        "review_rating": 5.0,
+        "review_rating_category": "Excellent"
+      }
+    ],
+    "category": ["Electronics", "Audio", "Headphones & Earbuds"]
+  },
+  {
+    "id": 10,
+    "name": "Digital Voice Recorder for Meetings and Lectures",
+    "discounted_price": 4094.99,
+    "price": 4499.99,
+    "discount": "9%",
+    "image": "./images/Digital Voice Recorder for Meetings and Lectures.webp",
+    "description": "Capture crystal‑clear audio with this  digital voice recorder. Perfect for students, journalists, and professionals, it offers noise reduction, long recording hours, and easy file transfer.",
+    "brand": "AudioTech",
+    "rating": 2.9,
+    "rating_category": "Poor",
+    "number_of_ratings": 620,
+    "purchase_count": 850,
+    "delivery_estimate": "5-6 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user33.jpg",
+        "user_name": "Oliver H.",
+        "review_title": "Poor Audio Quality",
+        "date_posted": "2025-08-25",
+        "review": "The audio quality is very poor, and it picks up a lot of background noise. Not suitable for recording lectures.",
+        "review_rating": 1.9,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user34.jpg",
+        "user_name": "Harper",
+        "review_title": "Very Unreliable",
+        "date_posted": "2025-08-29",
+        "review": "I had high hopes, but it's very unreliable. The recording often stops on its own. Would not recommend.",
+        "review_rating": 1.2,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user35.jpg",
+        "user_name": "Penelope M.",
+        "review_title": "Total Waste of Money",
+        "date_posted": "2025-09-02",
+        "review": "A total waste of money. The sound is muffled and it's hard to transfer files. Very disappointed.",
+        "review_rating": 1.5,
+        "review_rating_category": "Poor"
+      }
+    ],
+    "category": ["Electronics", "Audio", "Voice Recorders"]
+  },
+  {
+    "id": 11,
+    "name": "Advanced Fitness Tracker Band with Sleep Monitoring",
+    "discounted_price": 4199.74,
+    "price": 4999.69,
+    "discount": "16%",
+    "image": "./images/Advanced Fitness Tracker Band with Sleep Monitoring.webp",
+    "description": "Monitor your fitness progress with this advanced tracker band. It records steps, sleep quality, and workout sessions, while offering a sleek design that’s comfortable to wear all day.",
+    "brand": "FitCore",
+    "rating": 4.7,
+    "rating_category": "Excellent",
+    "number_of_ratings": 1400,
+    "purchase_count": 1750,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user36.jpg",
+        "user_name": "Leo B.",
+        "review_title": "The Best Fitness Tracker!",
+        "date_posted": "2025-09-01",
+        "review": "The best fitness tracker I've ever used. The sleep monitoring is surprisingly accurate and the app is easy to use.",
+        "review_rating": 4.9,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user37.jpg",
+        "user_name": "Amelia R.",
+        "review_title": "Amazing Battery Life",
+        "date_posted": "2025-09-04",
+        "review": "This band motivates me to be more active. The battery life is amazing and it looks great.",
+        "review_rating": 4.8,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user38.jpg",
+        "user_name": "David",
+        "review_title": "Absolutely Brilliant",
+        "date_posted": "2025-09-08",
+        "review": "Absolutely brilliant. I'm really impressed with how well it tracks my runs and workouts.",
+        "review_rating": 4.6,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user39.jpg",
+        "user_name": "Zoe",
+        "review_title": "Great Value, Comfortable",
+        "date_posted": "2025-09-11",
+        "review": "So comfortable and a great design. It's an excellent value and works as described.",
+        "review_rating": 4.7,
+        "review_rating_category": "Excellent"
+      }
+    ],
+    "category": ["Electronics", "Wearables", "Fitness Trackers"]
+  },
+  {
+    "id": 12,
+    "name": "Aura Women's Wired Over‑Ear Headphones with High‑Definition Audio",
+    "price": 3999.59,
+    "discounted_price": 3479.64,
+    "discount": "13%",
+    "image": "./images/Aura Women's Wired Over‑Ear Headphones with High‑Definition Audio.webp",
+    "description": "Experience high-definition sound with the Aura women's wired over-ear headphones. Soft cushioned ear pads ensure comfort, while the wide frequency response delivers rich, clear audio with solid bass, perfect for long listening sessions.",
+    "brand": "Aura",
+    "rating": 3.8,
+    "rating_category": "Good",
+    "number_of_ratings": 1050,
+    "purchase_count": 1300,
+    "delivery_estimate": "4-5 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user40.jpg",
+        "user_name": "Benjamin",
+        "review_title": "Good Sound for the Price",
+        "date_posted": "2025-09-01",
+        "review": "Good sound quality for the price. They are very comfortable for long sessions.",
+        "review_rating": 4.0,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user41.jpg",
+        "user_name": "Evelyn D.",
+        "review_title": "Clear Audio, Solid Bass",
+        "date_posted": "2025-09-05",
+        "review": "The audio is clear and the bass is solid. I'm happy with this purchase.",
+        "review_rating": 4.3,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user42.jpg",
+        "user_name": "Maria B.",
+        "review_title": "Sturdy and Reliable",
+        "date_posted": "2025-09-10",
+        "review": "They get the job done for music listening. The build quality feels sturdy.",
+        "review_rating": 3.9,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Audio", "Headphones & Earbuds"]
+  },
+  {
+    "id": 13,
+    "name": "Modern Smartwatch with GPS and Sport Modes",
+    "discounted_price": 5519.71,
+    "price": 5999.69,
+    "discount": "8%",
+    "image": "./images/Modern Smartwatch with GPS and Sport Modes.webp",
+    "description": "This modern smartwatch includes built‑in GPS and multiple sports modes. It tracks health metrics, provides app notifications, and offers a stylish design that suits both fitness and fashion.",
+    "brand": "FitCore",
+    "rating": 3.1,
+    "rating_category": "Average",
+    "number_of_ratings": 980,
+    "purchase_count": 1250,
+    "delivery_estimate": "7-8 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user43.jpg",
+        "user_name": "Logan F.",
+        "review_title": "Slow GPS",
+        "date_posted": "2025-08-28",
+        "review": "The GPS feature is very slow to connect. It works, but the performance is not what I expected.",
+        "review_rating": 3.0,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user44.jpg",
+        "user_name": "Madison K.",
+        "review_title": "Buggy App, Poor Battery",
+        "date_posted": "2025-09-02",
+        "review": "It looks great, but the battery life is disappointing and the app is a bit buggy.",
+        "review_rating": 2.7,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user45.jpg",
+        "user_name": "Joshua T.",
+        "review_title": "Inaccurate Fitness Tracking",
+        "date_posted": "2025-09-06",
+        "review": "The heart rate monitor isn't very accurate. I'm not very impressed with its fitness tracking capabilities.",
+        "review_rating": 2.5,
+        "review_rating_category": "Poor"
+      }
+    ],
+    "category": ["Electronics", "Wearables", "Smartwatches"]
+  },
+  {
+    "id": 14,
+    "name": "Handheld  Gaming Console for On‑the‑Go Entertainment",
+    "discounted_price": 4979.99,
+    "price": 5999.99,
+    "discount": "17%",
+    "image": "./images/Handheld  Gaming Console for On‑the‑Go Entertainment.webp",
+    "description": "Enjoy your favorite games anywhere with this powerful handheld gaming console. Equipped with an HD screen, responsive controls, and long battery life, it ensures uninterrupted entertainment whether you’re traveling or relaxing at home.",
+    "brand": "GameFlow",
+    "rating": 4.3,
+    "rating_category": "Good",
+    "number_of_ratings": 2100,
+    "purchase_count": 2800,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user46.jpg",
+        "user_name": "Ryan G.",
+        "review_title": "Solid Gaming Device",
+        "date_posted": "2025-08-20",
+        "review": "A very solid gaming device. The controls are precise and the screen is beautiful. Highly recommended!",
+        "review_rating": 4.5,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user47.jpg",
+        "user_name": "Hannah",
+        "review_title": "Can't Put it Down!",
+        "date_posted": "2025-08-25",
+        "review": "I can't put this down! The performance is great, and it runs games smoothly.",
+        "review_rating": 4.2,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user48.jpg",
+        "user_name": "Thomas",
+        "review_title": "Impressive Battery Life",
+        "date_posted": "2025-08-29",
+        "review": "The battery life is really impressive. It's perfect for long trips.",
+        "review_rating": 4.0,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user49.jpg",
+        "user_name": "Chris P.",
+        "review_title": "Worthwhile Purchase",
+        "date_posted": "2025-09-02",
+        "review": "The graphics are sharp and it feels great in my hands. A worthwhile purchase for any gamer.",
+        "review_rating": 4.4,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Gaming", "Gaming Consoles"]
+  },
+  {
+    "id": 15,
+    "name": "Compact Wireless Mouse with Silent Click Buttons",
+    "discounted_price": 2819.71,
+    "price": 2999.69,
+    "discount": "6%",
+    "image": "./images/Compact Wireless Mouse with Silent Click Buttons.webp",
+    "description": "Navigate smoothly with this compact wireless mouse. Featuring silent click buttons, an ergonomic grip, and long battery life, it’s a reliable accessory for work and play.",
+    "brand": "Tekno",
+    "rating": 3.5,
+    "rating_category": "Average",
+    "number_of_ratings": 1550,
+    "purchase_count": 1850,
+    "delivery_estimate": "4-5 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user50.jpg",
+        "user_name": "Isaac T.",
+        "review_title": "Silent Clicks are Great",
+        "date_posted": "2025-09-01",
+        "review": "The silent clicks are great, but the sensor isn't as precise as I'd like. It's okay for general use.",
+        "review_rating": 3.3,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user51.jpg",
+        "user_name": "Grace",
+        "review_title": "Flimsy Scroll Wheel",
+        "date_posted": "2025-09-05",
+        "review": "It works well, but the scroll wheel feels a bit flimsy. Not bad for the price, though.",
+        "review_rating": 3.0,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user52.jpg",
+        "user_name": "Kevin",
+        "review_title": "Light and Cheap Feel",
+        "date_posted": "2025-09-09",
+        "review": "The mouse works fine but it feels a bit light and cheap. The buttons have a good feel, though.",
+        "review_rating": 3.4,
+        "review_rating_category": "Average"
+      }
+    ],
+    "category": ["Electronics", "Computer Accessories", "Mice"]
+  },
+  {
+    "id": 16,
+    "name": "True Wireless Bluetooth Earbuds with Long Battery Life",
+    "price": 5999.59,
+    "discounted_price": 4859.67,
+    "discount": "19%",
+    "image": "./images/True Wireless Bluetooth Earbuds with Long Battery Life.webp",
+    "description": "Enjoy uninterrupted music with the Aura true wireless earbuds. Designed for comfort and style, they offer extended battery life, premium sound quality, and a sleek charging case—perfect for workouts, daily commutes, and on-the-go listening.",
+    "brand": "Aura",
+    "rating": 4.8,
+    "rating_category": "Excellent",
+    "number_of_ratings": 1900,
+    "purchase_count": 2300,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user53.jpg",
+        "user_name": "Jack",
+        "review_title": "Love These!",
+        "date_posted": "2025-09-01",
+        "review": "Absolutely love these! The sound is crisp and the battery life is incredible. I use them every day.",
+        "review_rating": 4.8,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user54.jpg",
+        "user_name": "Lily B.",
+        "review_title": "Perfect Fit, Great Sound",
+        "date_posted": "2025-09-04",
+        "review": "Perfect fit, great sound, and they hold a charge for so long. Worth every penny.",
+        "review_rating": 4.9,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user55.jpg",
+        "user_name": "Jessica M.",
+        "review_title": "Flawless Performance",
+        "date_posted": "2025-09-08",
+        "review": "Flawless performance. The case is so compact and the sound quality is top-notch.",
+        "review_rating": 5.0,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user56.jpg",
+        "user_name": "Daniel C.",
+        "review_title": "Incredible Value",
+        "date_posted": "2025-09-12",
+        "review": "Incredible value for the price. The audio is amazing and they are super comfortable for long use.",
+        "review_rating": 4.7,
+        "review_rating_category": "Excellent"
+      }
+    ],
+    "category": ["Electronics", "Audio", "Headphones & Earbuds"]
+  },
+  {
+    "id": 17,
+    "name": "Fast Charging  Power Bank with Dual Output",
+    "discounted_price": 3599.72,
+    "price": 3999.69,
+    "discount": "10%",
+    "image": "./images/Fast Charging  Power Bank with Dual Output.webp",
+    "description": "Charge multiple devices at once with this fast‑charging power bank. Its dual USB outputs, LED indicators, and compact design make it perfect for everyday carry.",
+    "brand": "Volta",
+    "rating": 4.2,
+    "rating_category": "Good",
+    "number_of_ratings": 1020,
+    "purchase_count": 1300,
+    "delivery_estimate": "5-6 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user57.jpg",
+        "user_name": "Sam W.",
+        "review_title": "Reliable and Convenient",
+        "date_posted": "2025-09-03",
+        "review": "A reliable charger. It's compact and the dual outputs are very convenient.",
+        "review_rating": 4.2,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user58.jpg",
+        "user_name": "Nora F.",
+        "review_title": "Fast and Solid",
+        "date_posted": "2025-09-07",
+        "review": "It charges my devices quickly and the build quality feels solid.",
+        "review_rating": 4.0,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user59.jpg",
+        "user_name": "Lucas P.",
+        "review_title": "Great for Travel",
+        "date_posted": "2025-09-11",
+        "review": "Great for travel. I love the indicator lights to see the battery level.",
+        "review_rating": 4.4,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Power & Charging", "Power Banks"]
+  },
+  {
+    "id": 18,
+    "name": "Mini  Bluetooth Speaker with Heavy Bass",
+    "discounted_price": 4249.99,
+    "price": 4999.99,
+    "discount": "15%",
+    "image": "./images/Mini  Bluetooth Speaker with Heavy Bass.webp",
+    "description": "This mini  speaker delivers big sound in a small package. With heavy bass, long battery life, and wireless connectivity, it’s perfect for outdoor use and parties.",
+    "brand": "Sonic",
+    "rating": 2.7,
+    "rating_category": "Poor",
+    "number_of_ratings": 1750,
+    "purchase_count": 2200,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user60.jpg",
+        "user_name": "Leo C.",
+        "review_title": "Terrible Sound Quality",
+        "date_posted": "2025-08-25",
+        "review": "This speaker sounds terrible. The bass is muddy and the sound is distorted even at medium volume.",
+        "review_rating": 1.5,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user1.jpg",
+        "user_name": "Penelope M.",
+        "review_title": "Disappointing and Spotty Connection",
+        "date_posted": "2025-08-28",
+        "review": "Very disappointed with the sound quality. The connection is also very spotty.",
+        "review_rating": 2.2,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user2.jpg",
+        "user_name": "Ethan W.",
+        "review_title": "Doesn't Hold Charge",
+        "date_posted": "2025-09-01",
+        "review": "It barely holds a charge and the sound is tinny. Do not buy this.",
+        "review_rating": 1.1,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user3.jpg",
+        "user_name": "Chloe S.",
+        "review_title": "Constant Disconnects",
+        "date_posted": "2025-09-04",
+        "review": "The Bluetooth disconnects constantly. It's more trouble than it's worth.",
+        "review_rating": 2.4,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 5,
+        "user_pic": "/images/users/user4.jpg",
+        "user_name": "Jack",
+        "review_title": "Worst Speaker I've Owned",
+        "date_posted": "2025-09-08",
+        "review": "Worst speaker I've ever bought. It's not loud and the sound quality is awful.",
+        "review_rating": 1.8,
+        "review_rating_category": "Poor"
+      }
+    ],
+    "category": ["Electronics", "Audio", "Speakers"]
+  },
+  {
+    "id": 19,
+    "name": "Gaming Bluetooth Keyboard for Laptops and Tablets",
+    "discounted_price": 4274.61,
+    "price": 4499.59,
+    "discount": "5%",
+    "image": "./images/Gaming Bluetooth Keyboard for Laptops and Tablets.webp",
+    "description": "Enhance your typing experience with this ultra Gaming Bluetooth keyboard. It connects seamlessly to multiple devices and provides a smooth, responsive typing feel in a  form factor.",
+    "brand": "Tekno",
+    "rating": 4.1,
+    "rating_category": "Good",
+    "number_of_ratings": 850,
+    "purchase_count": 1050,
+    "delivery_estimate": "4-5 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user5.jpg",
+        "user_name": "David R.",
+        "review_title": "Premium",
+        "date_posted": "2025-09-01",
+        "review": "This keyboard is so thin and light. It works perfectly with my tablet and feels very premium.",
+        "review_rating": 4.3,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user6.jpg",
+        "user_name": "Zoe P.",
+        "review_title": "Pleasure to Use",
+        "date_posted": "2025-09-04",
+        "review": "Typing on this is a pleasure. It's quiet, responsive, and the battery lasts for ages.",
+        "review_rating": 4.5,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user7.jpg",
+        "user_name": "Ava",
+        "review_title": "Sleek and Functional",
+        "date_posted": "2025-09-07",
+        "review": "I love the sleek design and how it fits into my laptop bag easily. Great product.",
+        "review_rating": 4.0,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Computer Accessories", "Keyboards"]
+  },
+  {
+    "id": 20,
+    "name": "Aura Women's Elegant Beads Strap Wrist Watch",
+    "price": 4999.59,
+    "discounted_price": 3999.67,
+    "discount": "20%",
+    "image": "./images/Aura Women's Elegant Beads Strap Wrist Watch.webp",
+    "description": "This elegant women's wristwatch features a beautiful beads strap, combining style and comfort. Its polished dial, reliable movement, and chic design make it perfect for both casual outings and special occasions.",
+    "brand": "Chronos",
+    "rating": 3.6,
+    "rating_category": "Average",
+    "number_of_ratings": 720,
+    "purchase_count": 910,
+    "delivery_estimate": "7-8 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user8.jpg",
+        "user_name": "Lucas F.",
+        "review_title": "Pretty and Stylish",
+        "date_posted": "2025-08-28",
+        "review": "Looks pretty and stylish. The beads strap is comfortable, but it feels delicate.",
+        "review_rating": 3.5,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user9.jpg",
+        "user_name": "Maya S.",
+        "review_title": "Lovely for Daily Wear",
+        "date_posted": "2025-09-02",
+        "review": "Lovely watch for daily wear. The beads strap is lightweight and chic, though it needs careful handling.",
+        "review_rating": 3.0,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user10.jpg",
+        "user_name": "Olivia",
+        "review_title": "Beautiful but Fragile",
+        "date_posted": "2025-09-06",
+        "review": "The watch looks beautiful on the wrist, but the beads strap is a bit fragile. Stylish for fashion purposes.",
+        "review_rating": 2.8,
+        "review_rating_category": "Poor"
+      }
+    ],
+    "category": ["Fashion & Accessories", "Watches"]
+  },
+  {
+    "id": 21,
+    "name": "Pocket WiFi Device with Long Battery Backup",
+    "discounted_price": 5279.64,
+    "price": 5999.59,
+    "discount": "12%",
+    "image": "./images/Pocket WiFi Device with Long Battery Backup.webp",
+    "description": "This  pocket WiFi device provides seamless internet connectivity. With extended battery backup and multi‑device support, it’s a must‑have for travelers and remote workers.",
+    "brand": "NetLink",
+    "rating": 4.0,
+    "rating_category": "Good",
+    "number_of_ratings": 900,
+    "purchase_count": 1150,
+    "delivery_estimate": "5-6 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user11.jpg",
+        "user_name": "Adam K.",
+        "review_title": "Works Great",
+        "date_posted": "2025-08-20",
+        "review": "Works great. I get a strong signal and the battery lasts all day. Perfect for my work trips.",
+        "review_rating": 4.1,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user12.jpg",
+        "user_name": "Ella B.",
+        "review_title": "A Lifesaver for Travel",
+        "date_posted": "2025-08-23",
+        "review": "A lifesaver for travel. It's easy to set up and provides a stable connection for all my devices.",
+        "review_rating": 4.5,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user13.jpg",
+        "user_name": "Matthew H.",
+        "review_title": "Reliable and Compact",
+        "date_posted": "2025-08-27",
+        "review": "Reliable internet wherever I go. The device is compact and performs as expected.",
+        "review_rating": 4.0,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user14.jpg",
+        "user_name": "Chloe T.",
+        "review_title": "Excellent Purchase",
+        "date_posted": "2025-08-31",
+        "review": "Excellent purchase. I can connect my laptop and phone at the same time with no issues.",
+        "review_rating": 4.2,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 5,
+        "user_pic": "/images/users/user15.jpg",
+        "user_name": "Michael S.",
+        "review_title": "User-Friendly",
+        "date_posted": "2025-09-04",
+        "review": "The speed is decent and the device is very user-friendly. Happy with the product.",
+        "review_rating": 3.9,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Networking", " WiFi"]
+  },
+  {
+    "id": 22,
+    "name": "Multi‑Slot Memory Card Reader for Quick Data Transfer",
+    "discounted_price": 2295.75,
+    "price": 2799.69,
+    "discount": "18%",
+    "image": "./images/Multi‑Slot Memory Card Reader for Quick Data Transfer.webp",
+    "description": "Easily transfer files with this multi‑slot memory card reader, compatible with SD, microSD, and other formats. Its compact size and USB 3.0 support ensure high‑speed data transfer and portability.",
+    "brand": "Tekno",
+    "rating": 2.5,
+    "rating_category": "Poor",
+    "number_of_ratings": 650,
+    "purchase_count": 890,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user16.jpg",
+        "user_name": "Michael S.",
+        "review_title": "Not Reliable",
+        "date_posted": "2025-09-01",
+        "review": "This device is very finicky. It often fails to read my cards, and the USB connection is loose.",
+        "review_rating": 1.7,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user17.jpg",
+        "user_name": "Anna L.",
+        "review_title": "Complete Waste of Money",
+        "date_posted": "2025-09-04",
+        "review": "A complete waste of money. It broke after only a few uses and the transfer speeds are very slow.",
+        "review_rating": 1.2,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user18.jpg",
+        "user_name": "Daniel C.",
+        "review_title": "Cards Don't Fit Securely",
+        "date_posted": "2025-09-08",
+        "review": "Not reliable at all. The slots don't hold the cards securely.",
+        "review_rating": 2.5,
+        "review_rating_category": "Poor"
+      }
+    ],
+    "category": ["Electronics", "Computer Accessories", "Card Readers"]
+  },
+  {
+    "id": 23,
+    "name": "Advanced Handheld Gaming Console with HD Screen",
+    "discounted_price": 5579.99,
+    "price": 5999.99,
+    "discount": "7%",
+    "image": "./images/Advanced Handheld Gaming Console with HD Screen.webp",
+    "description": "Game in style with this advanced handheld gaming console. Featuring an HD screen, fast processor, and a wide library of games, it ensures hours of  entertainment.",
+    "brand": "GameFlow",
+    "rating": 4.6,
+    "rating_category": "Excellent",
+    "number_of_ratings": 1850,
+    "purchase_count": 2200,
+    "delivery_estimate": "4-5 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user19.jpg",
+        "user_name": "David W.",
+        "review_title": "Stunning Screen and Performance",
+        "date_posted": "2025-09-01",
+        "review": "The screen is so crisp and the performance is top-notch. I love playing on this console.",
+        "review_rating": 4.9,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user20.jpg",
+        "user_name": "Sarah J.",
+        "review_title": "Amazing On-the-Go Gaming",
+        "date_posted": "2025-09-04",
+        "review": "Amazing gaming experience on the go. The controls are responsive and the battery life is great.",
+        "review_rating": 4.7,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user21.jpg",
+        "user_name": "Mark R.",
+        "review_title": "Incredibly Fun to Use",
+        "date_posted": "2025-09-08",
+        "review": "This console is incredibly fun to use. The graphics are stunning and it's so comfortable to hold.",
+        "review_rating": 4.6,
+        "review_rating_category": "Excellent"
+      }
+    ],
+    "category": ["Electronics", "Gaming", "Gaming Consoles"]
+  },
+  {
+    "id": 24,
+    "name": "Ergonomic Wireless Mouse with High Precision Sensor",
+    "discounted_price": 2669.72,
+    "price": 2999.69,
+    "discount": "11%",
+    "image": "./images/Ergonomic Wireless Mouse with High Precision Sensor.webp",
+    "description": "This ergonomic wireless mouse offers smooth navigation and responsive performance. Built with a high-precision optical sensor and silent click buttons, it is perfect for both professional work and casual use.",
+    "brand": "Tekno",
+    "rating": 3.7,
+    "rating_category": "Average",
+    "number_of_ratings": 1200,
+    "purchase_count": 1500,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user22.jpg",
+        "user_name": "Joshua T.",
+        "review_title": "Connection is Spotty",
+        "date_posted": "2025-08-25",
+        "review": "It’s a comfortable mouse, but the wireless connection can be a bit spotty at times. Good for the price.",
+        "review_rating": 3.5,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user23.jpg",
+        "user_name": "Maria",
+        "review_title": "Just Gets the Job Done",
+        "date_posted": "2025-08-29",
+        "review": "The ergonomic design is nice, but I've had better sensors. It gets the job done for my daily tasks.",
+        "review_rating": 3.1,
+        "review_rating_category": "Average"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user24.jpg",
+        "user_name": "Robert S.",
+        "review_title": "Occasional Lag",
+        "date_posted": "2025-09-03",
+        "review": "The silent clicks are nice, but the mouse has a lag sometimes. It's okay for basic use.",
+        "review_rating": 3.2,
+        "review_rating_category": "Average"
+      }
+    ],
+    "category": ["Electronics", "Computer Accessories", "Mice"]
+  },
+  {
+    "id": 25,
+    "name": "Pro USB Gaming Joystick with Precision Control",
+    "discounted_price": 2987.99,
+    "price": 3599.99,
+    "discount": "17%",
+    "image": "./images/Pro USB Gaming Joystick with Precision Control.webp",
+    "description": "Experience precise control and smooth handling with this USB gaming joystick. Built for durability, it enhances gameplay in racing, shooting, and simulation games.",
+    "brand": "GameFlow",
+    "rating": 4.5,
+    "rating_category": "Excellent",
+    "number_of_ratings": 1350,
+    "purchase_count": 1650,
+    "delivery_estimate": "5-6 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user25.jpg",
+        "user_name": "Thomas G.",
+        "review_title": "Excellent Controller!",
+        "date_posted": "2025-09-01",
+        "review": "Excellent controller! The response is flawless and it feels very durable. A must-have for gamers.",
+        "review_rating": 4.8,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user26.jpg",
+        "user_name": "Isabella V.",
+        "review_title": "My New Favorite",
+        "date_posted": "2025-09-04",
+        "review": "My new favorite joystick. It's so much more precise than my old one, and the grip is very comfortable.",
+        "review_rating": 4.6,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user27.jpg",
+        "user_name": "Samuel B.",
+        "review_title": "Flawless and Responsive",
+        "date_posted": "2025-09-08",
+        "review": "Works perfectly out of the box. No setup needed, and the controls are extremely responsive.",
+        "review_rating": 4.9,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user28.jpg",
+        "user_name": "Lily P.",
+        "review_title": "Fantastic Quality",
+        "date_posted": "2025-09-12",
+        "review": "The quality is fantastic. I've used it for several games, and it has been great every time.",
+        "review_rating": 4.7,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 5,
+        "user_pic": "/images/users/user29.jpg",
+        "user_name": "James K.",
+        "review_title": "Highly Impressed",
+        "date_posted": "2025-09-15",
+        "review": "Highly impressed with the accuracy and build. This has improved my gaming experience significantly.",
+        "review_rating": 4.5,
+        "review_rating_category": "Excellent"
+      }
+    ],
+    "category": ["Electronics", "Gaming", "Controllers & Joysticks"]
+  },
+  {
+    "id": 26,
+    "name": "Pocket WiFi Hotspot Device for Seamless Internet Access",
+    "discounted_price": 5459.99,
+    "price": 5999.99,
+    "discount": "9%",
+    "image": "./images/Pocket WiFi Hotspot Device for Seamless Internet Access.webp",
+    "description": "Stay connected anywhere with this pocket WiFi hotspot device. Offering strong signal coverage and long battery life, it ensures high‑speed internet access for multiple devices at once.",
+    "brand": "NetLink",
+    "rating": 4.3,
+    "rating_category": "Good",
+    "number_of_ratings": 1100,
+    "purchase_count": 1400,
+    "delivery_estimate": "4-5 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user30.jpg",
+        "user_name": "Ryan B.",
+        "review_title": "Reliable and Fast",
+        "date_posted": "2025-09-01",
+        "review": "Very reliable and fast internet on the go. This device has been a game-changer for my remote work.",
+        "review_rating": 4.4,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user31.jpg",
+        "user_name": "Sophia R.",
+        "review_title": "Stable Connection, Great Battery",
+        "date_posted": "2025-09-05",
+        "review": "Easy to use and the connection is stable. I'm very impressed with the battery life.",
+        "review_rating": 4.2,
+        "review_rating_category": "Good"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user32.jpg",
+        "user_name": "Ethan L.",
+        "review_title": "Works as Described",
+        "date_posted": "2025-09-09",
+        "review": "It works as described and provides a strong signal. The setup was very straightforward.",
+        "review_rating": 4.0,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Networking", " WiFi"]
+  },
+  {
+    "id": 27,
+    "name": "Compact Digital Voice Recorder with Noise Reduction",
+    "discounted_price": 3779.74,
+    "price": 4499.69,
+    "discount": "16%",
+    "image": "./images/Compact Digital Voice Recorder with Noise Reduction.webp",
+    "description": "Record high‑quality audio anywhere with this compact digital recorder. It features noise reduction, easy playback, and a lightweight design that makes it easy to carry around.",
+    "brand": "AudioTech",
+    "rating": 2.8,
+    "rating_category": "Poor",
+    "number_of_ratings": 550,
+    "purchase_count": 750,
+    "delivery_estimate": "7-8 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user33.jpg",
+        "user_name": "Alex",
+        "review_title": "Poor Recording Quality",
+        "date_posted": "2025-08-20",
+        "review": "The recording quality is poor, and the noise reduction feature barely works. I'm very disappointed.",
+        "review_rating": 1.9,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user34.jpg",
+        "user_name": "Chloe T.",
+        "review_title": "Buggy and Difficult to Use",
+        "date_posted": "2025-08-25",
+        "review": "The device is buggy and difficult to use. The sound quality is nowhere near what was advertised.",
+        "review_rating": 2.2,
+        "review_rating_category": "Poor"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user35.jpg",
+        "user_name": "Liam D.",
+        "review_title": "Static Noise",
+        "date_posted": "2025-08-30",
+        "review": "It makes a lot of static noise when recording. Not a good product for its price.",
+        "review_rating": 1.5,
+        "review_rating_category": "Poor"
+      }
+    ],
+    "category": ["Electronics", "Audio", "Voice Recorders"]
+  },
+  {
+    "id": 28,
+    "name": "Multi-Card Memory Reader with High-Speed Transfer",
+    "discounted_price": 1499.99,
+    "price": 1799.99,
+    "discount": "17%",
+    "image": "./images/Multi-Card Memory Reader with High-Speed Transfer.webp",
+    "description": "Easily transfer data from multiple memory cards with this high-speed multi-card reader. Compatible with SD, microSD, CF, and other formats, it offers fast, reliable transfers and a compact, portable design.",
+    "brand": "GameFlow",
+    "rating": 4.5,
+    "rating_category": "Excellent",
+    "number_of_ratings": 2050,
+    "purchase_count": 2500,
+    "delivery_estimate": "4-5 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user36.jpg",
+        "user_name": "Chris B.",
+        "review_title": "Fast and Reliable",
+        "date_posted": "2025-09-01",
+        "review": "Transfers data quickly and reliably from all my memory cards. Compact and easy to use.",
+        "review_rating": 4.8,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user37.jpg",
+        "user_name": "Olivia M.",
+        "review_title": "Super Convenient",
+        "date_posted": "2025-09-04",
+        "review": "Super convenient for photographers. Handles SD and microSD cards without issues.",
+        "review_rating": 4.7,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user38.jpg",
+        "user_name": "Matthew H.",
+        "review_title": "Works Flawlessly",
+        "date_posted": "2025-09-08",
+        "review": "Works flawlessly with multiple card types. Very fast transfers and no errors so far.",
+        "review_rating": 4.9,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 4,
+        "user_pic": "/images/users/user39.jpg",
+        "user_name": "Jessica M.",
+        "review_title": "Highly Recommend",
+        "date_posted": "2025-09-12",
+        "review": "Highly recommend this memory card reader. It’s compact, fast, and supports multiple card types.",
+        "review_rating": 5.0,
+        "review_rating_category": "Excellent"
+      }
+    ],
+    "category": ["Electronics", "Storage & Memory", "Memory Card Readers"]
+  },
+  {
+    "id": 29,
+    "name": "Elegant Women’s Smartwatch with Fitness Tracking",
+    "discounted_price": 4999.99,
+    "price": 5499.99,
+    "discount": "9%",
+    "image": "./images/Elegant Women’s Smartwatch with Fitness Tracking.webp",
+    "description": "Stay stylish and connected with this elegant women’s smartwatch. Features include fitness tracking, heart rate monitoring, notifications, and a sleek design suitable for both workouts and daily wear.",
+    "brand": "Aura",
+    "rating": 4.8,
+    "rating_category": "Excellent",
+    "number_of_ratings": 2200,
+    "purchase_count": 2700,
+    "delivery_estimate": "6-7 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user40.jpg",
+        "user_name": "Kevin J.",
+        "review_title": "Stylish and Functional",
+        "date_posted": "2025-09-01",
+        "review": "Beautiful design and very functional. The fitness tracking works perfectly and it looks great on the wrist.",
+        "review_rating": 5.0,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user41.jpg",
+        "user_name": "Emma R.",
+        "review_title": "Perfect Everyday Smartwatch",
+        "date_posted": "2025-09-04",
+        "review": "Perfect for everyday use. Comfortable to wear, tracks my steps accurately, and I love the notification feature.",
+        "review_rating": 4.8,
+        "review_rating_category": "Excellent"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user42.jpg",
+        "user_name": "Ryan B.",
+        "review_title": "Excellent for Workouts",
+        "date_posted": "2025-09-08",
+        "review": "Great smartwatch for workouts. Tracks heart rate and activity accurately, and looks elegant at the same time.",
+        "review_rating": 4.6,
+        "review_rating_category": "Excellent"
+      }
+    ],
+    "category": ["Electronics", "Wearables", "Smartwatches"]
+  },
+  {
+    "id": 30,
+    "name": "Unisex Fitness Tracker with Heart Rate & Activity Monitor",
+    "discounted_price": 3299.99,
+    "price": 3999.99,
+    "discount": "18%",
+    "image": "./images/Unisex Fitness Tracker with Heart Rate & Activity Monitor.webp",
+    "description": "Track your health and fitness with this unisex fitness tracker. Features include heart rate monitoring, step counting, sleep tracking, and a sleek, lightweight design suitable for everyday wear.",
+    "brand": "Volta",
+    "rating": 4.2,
+    "rating_category": "Very Good",
+    "number_of_ratings": 1050,
+    "purchase_count": 1350,
+    "delivery_estimate": "5-6 days",
+    "reviews": [
+      {
+        "review_id": 1,
+        "user_pic": "/images/users/user43.jpg",
+        "user_name": "Michael S.",
+        "review_title": "Great for Daily Tracking",
+        "date_posted": "2025-08-25",
+        "review": "Tracks my steps and heart rate accurately. Very comfortable for daily wear.",
+        "review_rating": 4.2,
+        "review_rating_category": "Very Good"
+      },
+      {
+        "review_id": 2,
+        "user_pic": "/images/users/user44.jpg",
+        "user_name": "Lauren",
+        "review_title": "Helpful Fitness Tracker",
+        "date_posted": "2025-08-28",
+        "review": "Love the activity monitoring features. Sleek design fits well on my wrist.",
+        "review_rating": 4.3,
+        "review_rating_category": "Very Good"
+      },
+      {
+        "review_id": 3,
+        "user_pic": "/images/users/user45.jpg",
+        "user_name": "Sarah A.",
+        "review_title": "Good but Charging Time Long",
+        "date_posted": "2025-09-02",
+        "review": "Works well for tracking workouts, but takes a bit longer to charge than I expected.",
+        "review_rating": 3.9,
+        "review_rating_category": "Good"
+      }
+    ],
+    "category": ["Electronics", "Wearables", "Fitness Trackers"]
+  }
+]

@@ -9,6 +9,7 @@ import { useContext } from "react";
 import { AuthContext } from "./Components/Context/context";
 import NotFound from "./Components/Not Found/NotFound";
 import Cart from "./Components/Products copy/cart"
+import ProductsRenderingPage from "./Components/ProductsRenderingPage/ProductsRenderingPage"
 function App() {
   const { login } = useContext(AuthContext);
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
                         <Route path="/cart" element={<Cart/>} />
+                        
 
           </>
         ) : (
