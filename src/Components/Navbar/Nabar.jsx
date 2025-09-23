@@ -59,6 +59,7 @@ function Navbar({ textColor }) {
                 <button
                   onClick={handleLogout}
                   className="flex items-center gap-1"
+                  style={{cursor:'pointer'}}
                 >
                   <ExitIcon className="h-4 w-4" /> Log Out
                 </button>
@@ -122,7 +123,7 @@ function Navbar({ textColor }) {
                   <ShoppingCart className="h-5 w-5" /> Cart
                 </Link>
               </li>
-              <li>
+              <li className="">
                 <button
                   onClick={handleLogout}
                   className="flex items-center gap-2 "

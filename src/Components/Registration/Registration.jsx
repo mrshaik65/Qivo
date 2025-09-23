@@ -10,7 +10,6 @@ import { enqueueSnackbar } from "notistack";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Nabar";
-import "./registration.css";
 
 function Registration() {
   const [formData, setFormData] = useState({
@@ -87,89 +86,110 @@ function Registration() {
   };
 
   return (
-    <>
-    <div className="h-screen">
-      <Navbar textColor="text-black"/>
-      <div className="flex justify-center flex-col items-center mt-20 ">
-        <form
-          action=""
-         className="w-11/12 sm:w-96 md:w-fit flex flex-col rounded-xl shadow shadow-gray-800 py-10 px-7 bg-yellow-300/95 justify-center "
-          onSubmit={handleSubmit}
-        >
-          <div>
-            <p className="text-2xl mb-2 text-center">Register Here,</p>
-          </div>
+   <>
+  <div className="h-screen flex flex-col">
+    <Navbar textColor="text-black" />
 
-          <div className="flex items-center gap-2">
-            <PersonIcon className="w-5 h-5" />
-            <TextField.Root
-              className=" my-2 w-70 border-0"
-              radius="rounded"
-              onChange={handleChange}
-              name="name"
-              placeholder="Enter Name"
-              type="name"
-            />
-          </div>
-          <div className="flex items-center gap-2">
-            <EnvelopeClosedIcon className="w-5 h-5" />
-            <TextField.Root
-              className=" my-2 w-70 border-0"
-              radius="rounded"
-              onChange={handleChange}
-              name="email"
-              placeholder="Enter email"
-              type="email"
-            />
-          </div>
-          <div className="flex items-center gap-2">
-            <LockClosedIcon className="w-5 h-5" />
-            <TextField.Root
-              className=" my-2 w-70 border-0"
-              radius="rounded"
-              onChange={handleChange}
-              name="password"
-              placeholder="Enter Password"
-              type="password"
-            />
-          </div>
-          <div className="flex items-center gap-2">
-            <SewingPinIcon className=" w-5 h-5 rotate-45" />
-            <TextField.Root
-              className=" my-2 w-70 border-0"
-              radius="rounded"
-              onChange={handleChange}
-              name="confirmPassword"
-              placeholder="Confirm Password"
-            />
-          </div>
-          {formError && (
-            <div className="flex items-center gap-1 text-rose-500 ms-1">
-              <p className="">{erroricon}</p>
-              <p className="font-medium text-sm">{formError}</p>
-            </div>
-          )}
+    <div className="flex flex-1 justify-center items-center px-4">
+      <form
+        onSubmit={handleSubmit}
+        className="bg-[#F24445] w-full sm:w-96 md:w-[420px] flex flex-col text-white rounded-2xl shadow-lg py-10 px-8"
+      >
+        {/* Title */}
+        <p className="text-3xl font-bold mb-6 text-center tracking-wide">
+          Register
+        </p>
 
-          <div
-            className="flex justify-center "
-            style={{ margin: "10px 0px 10px 0px" }}
+        {/* Name */}
+        <div className="flex items-center gap-3 mb-2 rounded-lg px-3 py-2">
+          <PersonIcon className="w-5 h-5" />
+          <TextField.Root
+            className="flex-1"
+            radius="rounded"
+            onChange={handleChange}
+            name="name"
+            placeholder="Enter Name"
+            type="text"
+            style={{ backgroundColor: "white" }}
+          />
+        </div>
+
+        {/* Email */}
+        <div className="flex items-center gap-3 mb-2 rounded-lg px-3 py-2">
+          <EnvelopeClosedIcon className="w-5 h-5" />
+          <TextField.Root
+            className="flex-1"
+            radius="rounded"
+            onChange={handleChange}
+            name="email"
+            placeholder="Enter Email"
+            type="email"
+            style={{ backgroundColor: "white" }}
+          />
+        </div>
+
+        {/* Password */}
+        <div className="flex items-center gap-3 mb-2 rounded-lg px-3 py-2">
+          <LockClosedIcon className="w-5 h-5" />
+          <TextField.Root
+            className="flex-1"
+            radius="rounded"
+            onChange={handleChange}
+            name="password"
+            placeholder="Enter Password"
+            type="password"
+            style={{ backgroundColor: "white" }}
+          />
+        </div>
+
+        {/* Confirm Password */}
+        <div className="flex items-center gap-3 mb-2 rounded-lg px-3 py-2">
+          <SewingPinIcon className="w-5 h-5 rotate-45" />
+          <TextField.Root
+            className="flex-1"
+            radius="rounded"
+            onChange={handleChange}
+            name="confirmPassword"
+            placeholder="Confirm Password"
+            type="password"
+            style={{ backgroundColor: "white" }}
+          />
+        </div>
+
+        {/* Error */}
+        {formError && (
+           <div className="flex items-center gap-2 text-sm  mb-3 ml-4">
+                <ExclamationTriangleIcon className="w-4 h-4" />
+                <p>{formError}</p>
+              </div>
+        )}
+
+        {/* Button */}
+        <div className="flex justify-center">
+          <Button
+            style={{
+              padding: "0px 20px",
+              backgroundColor: "white",
+              color: "black",
+            }}
+            type="submit"
           >
-            <Button style={{ padding: "0px 20px"}} type="submit">
-              Reister
-            </Button>
-          </div>
-          <div className="flex justify-center">
-            <p>
-              Have an account?{" "}
-              <Link className="text-blue-500 underline" to={"/login"}>
-                Login
-              </Link>
-            </p>
-          </div>
-        </form>
-      </div>
-      </div>
-    </>
+            Register
+          </Button>
+        </div>
+
+        {/* Login link */}
+        <p className="text-sm text-center mt-6">
+          Already have an account?{" "}
+          <Link className="text-blue-200 underline hover:text-white" to="/login">
+            Login
+          </Link>
+        </p>
+      </form>
+    </div>
+  </div>
+</>
+
   );
 }
 export default Registration;

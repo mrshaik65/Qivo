@@ -1,20 +1,19 @@
 // Home.jsx
 import Navbar from "../Navbar/Nabar";
 import "./Home.css";
-import HomeHeroImg from "./IMG_20250922_124502.webp";
+import HomeHeroImg from "./hero-img-.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Img1 from "./Picsart_25-09-20_20-55-44-843_LE_upscale_ultra_x4_size_of_changes_100_intensity_100.webp";
-import Img2 from "./Picsart_25-09-22_06-58-31-053.webp";
-import Img3 from "./Picsart_25-09-20_21-18-04-884_LE_upscale_ultra_size_of_changes_100_intensity_100.webp";
-import Img4 from "./carousel-lg.webp";
+import Img1 from "./carousel-lg-1.webp";
+import Img2 from "./carousel-lg-2.webp";
+import Img3 from "./carousel-lg-3.webp";
+import Img4 from "./carousel-lg-4.webp";
 
-import Img5 from "./Gemini_Generated_Image_9vrv2a9vrv2a9vrv.webp";
-import Img6 from "./Gemini_Generated_Image_ob173qob173qob17.webp";
-import Img7 from "./Gemini_Generated_Image_sptmuzsptmuzsptm.webp";
-import Img8 from "./c20cae89-c083-4fa6-9bb7-c26cfa591fb9.webp";
-
+import Img5 from "./carousel-sm-1.webp";
+import Img6 from "./carousel-sm-2.webp";
+import Img7 from "./carousel-sm-3.webp";
+import Img8 from "./carousel-sm-4.webp";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
