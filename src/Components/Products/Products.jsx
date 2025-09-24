@@ -42,7 +42,7 @@ function Products() {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-10">
         <div className="w-100 mx-10 ">
           <TextField.Root
             placeholder="Search products..."
@@ -61,7 +61,7 @@ function Products() {
           </TextField.Root>
         </div>
       </div>
-<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-5 p-4">        {" "}
+<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 my-10">  
         {!loader ? (
           filterData.length > 0 ? (
             filterData.map((each, _index) => {

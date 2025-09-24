@@ -1,5 +1,5 @@
 import Products from "./Components/Products/Products";
-import  LogIn from "./Components/Log In/LogIn"
+import LogIn from "./Components/Log In/LogIn";
 import Registration from "./Components/Registration/Registration";
 import Home from "./Components/Home/Home";
 import "./index.css";
@@ -8,8 +8,8 @@ import Navbar from "./Components/Navbar/Nabar";
 import { useContext } from "react";
 import { AuthContext } from "./Components/Context/context";
 import NotFound from "./Components/Not Found/NotFound";
-import Cart from "./Components/Products copy/cart"
-import ProductsRenderingPage from "./Components/ProductsRenderingPage/ProductsRenderingPage"
+import Cart from "./Components/Products copy/cart";
+import ProductDetailsPage from "./Components/ProductsRenderingPage/ProductDetailsPage";
 function App() {
   const { login } = useContext(AuthContext);
 
@@ -20,9 +20,12 @@ function App() {
           <>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
-                        <Route path="/cart" element={<Cart/>} />
-                        
+            <Route
+              path="/product-details/:id"
+              element={<ProductDetailsPage />}
+            />
 
+            <Route path="/cart" element={<Cart />} />
           </>
         ) : (
           <>
