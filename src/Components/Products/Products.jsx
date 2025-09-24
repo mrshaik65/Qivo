@@ -32,15 +32,17 @@ function Products() {
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
   };
-  const filterData = apiData.filter((each) =>
-    each.name.toLowerCase().includes(searchTerm.toLocaleLowerCase())
+  const filterData = apiData.filter(
+    (each) =>
+      each.name.toLowerCase().includes(searchTerm.toLocaleLowerCase()) ||
+      each.brand.toLowerCase().includes(searchTerm.toLocaleLowerCase())
   );
   console.log(filterData);
 
   return (
     <>
       <Navbar />
-      <div className="flex justify-end">
+      <div className="flex justify-center">
         <div className="w-100 mx-10 ">
           <TextField.Root
             placeholder="Search products..."
@@ -52,14 +54,14 @@ function Products() {
               <MagnifyingGlassIcon
                 height="16"
                 width="16"
-                className=" absolute right-12 "
+                className=""
                 color="red"
               />
             </TextField.Slot>
           </TextField.Root>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6">
+<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-5 p-4">        {" "}
         {!loader ? (
           filterData.length > 0 ? (
             filterData.map((each, _index) => {

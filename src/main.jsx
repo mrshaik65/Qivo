@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 createRoot(document.getElementById("root")).render(
   <MyContext>
     <SnackbarProvider>
-  <Theme>
+  <Theme accentColor="red">
     <App />
   </Theme>
   </SnackbarProvider>
