@@ -12,7 +12,7 @@ function ProductsRenderingPage({ product }) {
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-36 sm:h-44 md:h-52 lg:h-60 object-contain p-2 sm:p-3 bg-gray-50"
+          className="w-full h-40 sm:h-44 md:h-52 lg:h-60 object-contain p-2 sm:p-3 bg-gray-50"
         />
         <span
           className="absolute top-2 left-2 bg-[#F24445] text-white 
