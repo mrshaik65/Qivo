@@ -1,6 +1,5 @@
 // Home.jsx
 import Navbar from "../Navbar/Nabar";
-import "./Home.css";
 import HomeHeroImg from "./hero-img-.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -16,6 +15,7 @@ import Img7 from "./carousel-sm-3.webp";
 import Img8 from "./carousel-sm-4.webp";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const NextArrow = ({ onClick }) => (
   <button
@@ -49,10 +49,12 @@ function Home() {
     prevArrow: <PrevArrow />,
   };
 
+  const navigate = useNavigate()
+
   return (
     <>
       {/* Hero Section */}
-      <div className="home-bg max-h-screen bg-[#F24445] ">
+      <div className="bg-[url('/hero-bg.webp')] bg-cover bg-center pb-10 max-h-screen bg-[#F24445] ">
         <Navbar textColor="text-white" />
 
         <div className="flex flex-col-reverse md:flex-row items-center md:justify-between gap-10 px-5 md:px-20  md:py-7 lg:py-10">
@@ -166,7 +168,7 @@ function Home() {
             Discover the latest gadgets and electronics that elevate your daily
             life. Limited stock available!
           </p>
-          <button className="inline-flex items-center px-6 py-3 mt-4 font-semibold text-white bg-[#F24445] rounded-lg hover:bg-red-600 transition">
+          <button onClick={()=> navigate("/products")} className="inline-flex items-center px-6 py-3 mt-4 font-semibold text-white bg-[#F24445] rounded-lg hover:bg-red-600 transition">
             Explore Collection
             <span className="ml-2">→</span>
           </button>
@@ -194,7 +196,7 @@ function Home() {
             <h4 className="font-semibold text-white">Quick Links</h4>
             <ul className="mt-3 space-y-2 text-sm">
               <li>
-                <a href="#home" className="hover:text-[#F24445]">
+                <a href="#" className="hover:text-[#F24445]">
                   Home
                 </a>
               </li>
@@ -203,7 +205,7 @@ function Home() {
                   About
                 </a>
               </li>
-              <li>
+              <li onClick={()=> navigate("/products")}>
                 <a href="#cta" className="hover:text-[#F24445]">
                   Shop
                 </a>

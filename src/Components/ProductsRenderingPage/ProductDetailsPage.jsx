@@ -97,7 +97,6 @@ function ProductDetailsPage() {
             </div>
             <p className="text-gray-700">{product.description}</p>
 
-            {/* Action Buttons */}
             {quantity < 1 ? (
               <div className="flex flex-col sm:flex-row justify-center gap-2 mb-2">
                 <Button
@@ -134,6 +133,13 @@ function ProductDetailsPage() {
                     +
                   </Button>
                 </div>
+
+                <Button
+                  className="px-4 py-2 text-sm sm:text-base md:text-lg bg-red-500 text-white hover:bg-red-600"
+                  onClick={() => alert("Proceed to Buy Now")}
+                >
+                  Buy Now
+                </Button>
               </div>
             )}
           </div>
@@ -142,7 +148,9 @@ function ProductDetailsPage() {
         {/* Reviews Section */}
         {product.reviews?.length > 0 && (
           <div className="mt-6">
-            <h2 className="font-semibold text-lg mb-3"><u>Ratings & Reviews</u> </h2>
+            <h2 className="font-semibold text-lg mb-3">
+              <u>Ratings & Reviews</u>{" "}
+            </h2>
             <div className="space-y-4">
               {product.reviews.map((r) => (
                 <div
