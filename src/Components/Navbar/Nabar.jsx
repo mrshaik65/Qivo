@@ -8,8 +8,7 @@ import {
   EnterIcon,
 } from "@radix-ui/react-icons";
 import { HiOutlineMenu } from "react-icons/hi";
-import { ShoppingCart } from "lucide-react";
-import { Key } from "lucide-react";
+import { ShoppingCart, Key } from "lucide-react";
 import "../Navbar/navbar.css";
 
 function Navbar({ textColor }) {
@@ -32,16 +31,15 @@ function Navbar({ textColor }) {
         {/* Logo Left */}
         <div className="flex justify-start">
           <h2 className="hero-logo-text
-  text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl
-  px-2 sm:px-2 md:px-2 lg:px-2 xl:px-2
-  py-1 sm:py-0.5 md:py-0.5 lg:py-1 xl:py-1
-  rounded-3xl
-  bg-red-500 text-white font-bold
-  transition-all duration-300
-">
-  Qivo
-</h2>
-
+            text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl
+            px-2 sm:px-2 md:px-2 lg:px-2 xl:px-2
+            py-1 sm:py-0.5 md:py-0.5 lg:py-1 xl:py-1
+            rounded-3xl
+            bg-red-500 text-white font-bold
+            transition-all duration-300
+          ">
+            Qivo
+          </h2>
         </div>
 
         {/* Desktop Menu Right */}
@@ -67,7 +65,7 @@ function Navbar({ textColor }) {
                 <button
                   onClick={handleLogout}
                   className="flex items-center gap-1"
-                  style={{cursor:'pointer'}}
+                  style={{ cursor: "pointer" }}
                 >
                   <ExitIcon className="h-4 w-4" /> Log Out
                 </button>
@@ -96,12 +94,26 @@ function Navbar({ textColor }) {
 
       {/* Mobile Drawer (Left Side) */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg transfor-transform duration-300 z-40 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform duration-300 z-40 ${
           drawerOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
+        {/* Logo at top of drawer */}
+        <div className="flex justify-start px-6 pt-4">
+          <h2 className="hero-logo-text
+            text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl
+            px-2 sm:px-2 md:px-2 lg:px-2 xl:px-2
+            py-1 sm:py-0.5 md:py-0.5 lg:py-1 xl:py-1
+            rounded-3xl
+            bg-red-500 text-white font-bold
+            transition-all duration-300
+          ">
+            Qivo
+          </h2>
+        </div>
+
         {/* UL with solid white background */}
-        <ul className="flex flex-col gap-6 h-screen px-6 bg-white pt-16">
+        <ul className="flex flex-col gap-6 h-screen px-6 bg-white pt-6">
           {login ? (
             <>
               <li>
