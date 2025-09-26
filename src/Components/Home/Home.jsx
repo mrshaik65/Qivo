@@ -178,9 +178,17 @@ function Home() {
       {/* Footer */}
       <footer className="w-full px-6 py-10 text-gray-300 bg-gray-900 lg:px-20">
         <div className="flex justify-start">
-          <h2 className="hero-logo-text text-3xl  text-white px-2 py-1 rounded-3xl mb-5 -ml-2 bg-red-500">
-            Qivo
-          </h2>
+          <h2 className="hero-logo-text
+  text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl
+  px-2 sm:px-2 md:px-2 lg:px-2 xl:px-2
+  py-1 sm:py-0.5 md:py-0.5 lg:py-1 xl:py-1
+  mb-5 -ml-2
+  rounded-3xl
+  bg-red-500 text-white font-bold
+  transition-all duration-300
+">
+  Qivo
+</h2>
         </div>
 
         <div className="grid gap-10 mx-auto max-w-7xl sm:grid-cols-2 lg:grid-cols-4">
