@@ -17,7 +17,6 @@ function Products() {
       try {
         setLoader(true);
         const res = await axios.get("products.json");
-        console.log(res.data);
         setApiData(res.data);
       } catch (error) {
         console.log(error, "Error accured during api call");
@@ -37,7 +36,6 @@ function Products() {
       each.name.toLowerCase().includes(searchTerm.toLocaleLowerCase()) ||
       each.brand.toLowerCase().includes(searchTerm.toLocaleLowerCase())
   );
-  console.log(filterData);
 
   return (
     <>

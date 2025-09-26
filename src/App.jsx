@@ -3,12 +3,12 @@ import LogIn from "./Components/Log In/LogIn";
 import Registration from "./Components/Registration/Registration";
 import Home from "./Components/Home/Home";
 import "./index.css";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Navbar from "./Components/Navbar/Nabar";
 import { useContext } from "react";
 import { AuthContext } from "./Components/Context/context";
 import NotFound from "./Components/Not Found/NotFound";
-import Cart from "./Components/Products copy/cart";
+import Cart from "./Components/Cart/cart";
 import ProductDetailsPage from "./Components/ProductsRenderingPage/ProductDetailsPage";
 function App() {
   const { login } = useContext(AuthContext);

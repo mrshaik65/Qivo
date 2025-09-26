@@ -31,9 +31,17 @@ function Navbar({ textColor }) {
       >
         {/* Logo Left */}
         <div className="flex justify-start">
-          <h2 className="hero-logo-text text-3xl  text-white px-2 py-1 rounded-3xl bg-red-500">
-            Qivo
-          </h2>
+          <h2 className="hero-logo-text
+  text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl
+  px-2 sm:px-2 md:px-2 lg:px-2 xl:px-2
+  py-1 sm:py-0.5 md:py-0.5 lg:py-1 xl:py-1
+  rounded-3xl
+  bg-red-500 text-white font-bold
+  transition-all duration-300
+">
+  Qivo
+</h2>
+
         </div>
 
         {/* Desktop Menu Right */}
