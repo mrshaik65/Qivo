@@ -12,53 +12,55 @@ import { ShoppingCart, Key } from "lucide-react";
 import "../Navbar/navbar.css";
 
 function Navbar({ textColor }) {
-  const { login, setLogin } = useContext(AuthContext);
-  const navigate = useNavigate();
-  const [drawerOpen, setDrawerOpen] = useState(false);
+  const { login, setLogin } = useContext(AuthContext); // Get login state from context
+  const navigate = useNavigate(); // Hook for programmatic navigation
+  const [drawerOpen, setDrawerOpen] = useState(false); // Mobile drawer state
 
+  // Handle logout action
   const handleLogout = () => {
-    setLogin(false);
-    localStorage.setItem("setLogin", JSON.stringify(false));
-    navigate("/login");
-    setDrawerOpen(false);
+    setLogin(false); // Update context
+    localStorage.setItem("setLogin", JSON.stringify(false)); // Persist logout
+    navigate("/login"); // Navigate to login page
+    setDrawerOpen(false); // Close mobile drawer if open
   };
 
   return (
-    <nav className="w-full z-50 lg:pt-5">
+    <nav className="z-50 w-full lg:pt-5">
+      {/* Main navbar container */}
       <div
         className={`flex justify-between items-center p-4 bg-transparent ${textColor}`}
       >
-        {/* Logo Left */}
+        {/* Logo on the left */}
         <div className="flex justify-start">
           <h2 className="hero-logo-text
             text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl
             px-2 sm:px-2 md:px-2 lg:px-2 xl:px-2
             py-1 sm:py-0.5 md:py-0.5 lg:py-1 xl:py-1
             rounded-3xl
-            bg-red-500 text-white font-bold
+            bg-[#F24445] text-white font-bold
             transition-all duration-300
           ">
             Qivo
           </h2>
         </div>
 
-        {/* Desktop Menu Right */}
-        <ul className="hidden md:flex gap-6 items-center">
+        {/* Desktop Menu */}
+        <ul className="items-center hidden gap-6 md:flex">
           {login ? (
             <>
               <li className="flex items-center gap-1 ">
                 <Link to="/" className="flex items-center gap-1">
-                  <HomeIcon className="h-4 w-4" /> Home
+                  <HomeIcon className="w-4 h-4" /> Home
                 </Link>
               </li>
               <li className="flex items-center gap-1">
                 <Link to="/products" className="flex items-center gap-1">
-                  <BackpackIcon className="h-4 w-4" /> Products
+                  <BackpackIcon className="w-4 h-4" /> Products
                 </Link>
               </li>
               <li className="flex items-center gap-1">
                 <Link to="/cart" className="flex items-center gap-1">
-                  <ShoppingCart className="h-4 w-4 font-light" /> Cart
+                  <ShoppingCart className="w-4 h-4 font-light" /> Cart
                 </Link>
               </li>
               <li>
@@ -67,38 +69,38 @@ function Navbar({ textColor }) {
                   className="flex items-center gap-1"
                   style={{ cursor: "pointer" }}
                 >
-                  <ExitIcon className="h-4 w-4" /> Log Out
+                  <ExitIcon className="w-4 h-4" /> Log Out
                 </button>
               </li>
             </>
           ) : (
             <>
               <li className="flex items-center gap-1">
-                <EnterIcon className="h-4 w-4" />{" "}
+                <EnterIcon className="w-4 h-4" />{" "}
                 <Link to="/login">Log In</Link>
               </li>
               <li className="flex items-center gap-1">
-                <Key className="h-4 w-4" /> <Link to="/register">Register</Link>
+                <Key className="w-4 h-4" /> <Link to="/register">Register</Link>
               </li>
             </>
           )}
         </ul>
 
-        {/* Mobile Hamburger */}
+        {/* Mobile Hamburger Icon */}
         <div className="md:hidden">
           <button onClick={() => setDrawerOpen(!drawerOpen)}>
-            <HiOutlineMenu className="h-6 w-6" />
+            <HiOutlineMenu className="w-6 h-6" />
           </button>
         </div>
       </div>
 
-      {/* Mobile Drawer (Left Side) */}
+      {/* Mobile Drawer Menu */}
       <div
         className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform duration-300 z-40 ${
           drawerOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        {/* Logo at top of drawer */}
+        {/* Logo inside drawer */}
         <div className="flex justify-start px-6 pt-4">
           <h2 className="hero-logo-text
             text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl
@@ -112,17 +114,17 @@ function Navbar({ textColor }) {
           </h2>
         </div>
 
-        {/* UL with solid white background */}
-        <ul className="flex flex-col gap-6 h-screen px-6 bg-white pt-6">
+        {/* Drawer Menu Items */}
+        <ul className="flex flex-col h-screen gap-6 px-6 pt-6 bg-white">
           {login ? (
             <>
               <li>
                 <Link
-                  onClick={() => setDrawerOpen(false)}
+                  onClick={() => setDrawerOpen(false)} // Close drawer on click
                   to="/"
                   className="flex items-center gap-2 "
                 >
-                  <HomeIcon className="h-5 w-5" /> Home
+                  <HomeIcon className="w-5 h-5" /> Home
                 </Link>
               </li>
               <li>
@@ -131,7 +133,7 @@ function Navbar({ textColor }) {
                   to="/products"
                   className="flex items-center gap-2 "
                 >
-                  <BackpackIcon className="h-5 w-5" /> Products
+                  <BackpackIcon className="w-5 h-5" /> Products
                 </Link>
               </li>
               <li>
@@ -140,28 +142,28 @@ function Navbar({ textColor }) {
                   to="/cart"
                   className="flex items-center gap-2 "
                 >
-                  <ShoppingCart className="h-5 w-5" /> Cart
+                  <ShoppingCart className="w-5 h-5" /> Cart
                 </Link>
               </li>
-              <li className="">
+              <li>
                 <button
                   onClick={handleLogout}
                   className="flex items-center gap-2 "
                 >
-                  <ExitIcon className="h-5 w-5" /> Log Out
+                  <ExitIcon className="w-5 h-5" /> Log Out
                 </button>
               </li>
             </>
           ) : (
             <>
               <li className="flex items-center gap-2 ">
-                <EnterIcon className="h-5 w-5" />{" "}
+                <EnterIcon className="w-5 h-5" />{" "}
                 <Link onClick={() => setDrawerOpen(false)} to="/login">
                   Log In
                 </Link>
               </li>
               <li className="flex items-center gap-2 ">
-                <Key className="h-5 w-5" />{" "}
+                <Key className="w-5 h-5" />{" "}
                 <Link onClick={() => setDrawerOpen(false)} to="/register">
                   Register
                 </Link>
@@ -171,11 +173,11 @@ function Navbar({ textColor }) {
         </ul>
       </div>
 
-      {/* Overlay */}
+      {/* Overlay for drawer */}
       {drawerOpen && (
         <div
-          className="fixed inset-0 bg-black/30 z-30"
-          onClick={() => setDrawerOpen(false)}
+          className="fixed inset-0 z-30 bg-black/30"
+          onClick={() => setDrawerOpen(false)} // Close drawer when clicking outside
         ></div>
       )}
     </nav>

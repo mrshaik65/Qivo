@@ -6,81 +6,94 @@ import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
 import Stack from "@mui/material/Stack";
 import CircularProgress from "@mui/material/CircularProgress";
 import ProductsRenderingPage from "../ProductsRenderingPage/ProductsRenderingPage";
+import Footer from "../Footer/Footer";
 
 function Products() {
-  const [apiData, setApiData] = useState([]);
-  const [loader, setLoader] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [apiData, setApiData] = useState([]); // Stores products fetched from API
+  const [loader, setLoader] = useState(false); // Loading state
+  const [searchTerm, setSearchTerm] = useState(""); // Search input state
 
+  // Fetch product data on component mount
   useEffect(() => {
     const fetchData = async () => {
       try {
-        setLoader(true);
-        const res = await axios.get("products.json");
-        setApiData(res.data);
+        setLoader(true); // Show loader while fetching
+        const res = await axios.get("products.json"); // Fetch data from JSON
+        setApiData(res.data); // Set data to state
       } catch (error) {
-        console.log(error, "Error accured during api call");
+        console.log(error, "Error accured during api call"); // Log errors
       } finally {
-        setLoader(false);
-        console.log("api call sucessfull completed");
+        setLoader(false); // Hide loader after fetch
+        console.log("api call sucessfull completed"); // Log success
       }
     };
 
     fetchData();
   }, []);
+
+  // Handle search input changes
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
   };
+
+  // Filter products based on search term
   const filterData = apiData.filter(
     (each) =>
-      each.name.toLowerCase().includes(searchTerm.toLocaleLowerCase()) ||
-      each.brand.toLowerCase().includes(searchTerm.toLocaleLowerCase())
+      each.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      each.brand.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
     <>
       <Navbar />
+
+      {/* Search Bar */}
       <div className="flex justify-center mb-10">
-        <div className="w-100 mx-10 ">
+        <div className="mx-10 w-100 ">
           <TextField.Root
             placeholder="Search products..."
             style={{ border: "1px solid #F24445", borderRadius: "8px" }}
             onChange={handleChange}
             value={searchTerm}
           >
-            <TextField.Slot className="">
+            <TextField.Slot>
               <MagnifyingGlassIcon
                 height="16"
                 width="16"
-                className=""
                 color="red"
               />
             </TextField.Slot>
           </TextField.Root>
         </div>
       </div>
-<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 my-10">  
+
+      {/* Products Grid */}
+      <div className="grid grid-cols-2 my-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
         {!loader ? (
           filterData.length > 0 ? (
-            filterData.map((each, _index) => {
-              return <ProductsRenderingPage product={each} key={each.id} />;
-            })
+            // Map filtered products
+            filterData.map((each) => (
+              <ProductsRenderingPage product={each} key={each.id} />
+            ))
           ) : (
-            <div className="bg-amber-500">
-              <p className="flex justify-center items-center">
-                No products found
-              </p>
+            // No products found message
+            <div className="flex items-center justify-center min-w-screen h-100">
+              <p>No products found</p>
             </div>
           )
         ) : (
-          <div className="flex justify-center items-center h-screen">
+          // Loader while fetching products
+          <div className="flex items-center justify-center h-100 min-w-screen">
             <Stack sx={{ color: "grey.500" }} spacing={2} direction="row">
-              <CircularProgress color="secondary" />
+              <CircularProgress color="error" />
             </Stack>
           </div>
         )}
       </div>
+
+      <Footer />
     </>
   );
 }
+
 export default Products;

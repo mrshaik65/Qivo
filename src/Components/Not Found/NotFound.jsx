@@ -1,26 +1,18 @@
-import { useContext, useEffect} from "react";
-import { AuthContext } from "../Context/context";
-import { useNavigate } from "react-router-dom";
-
+// 404 Page Component
 function NotFound() {
-  const navigate = useNavigate();
-  const { login } = useContext(AuthContext);
-  
-  useEffect(()=>{
-    if (!login) {
-    navigate("/login");
-  }
-  },[])
-  if(!login){
-    return null
-  }
   return (
-    <h1>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nobis,
-      saepe eveniet qui dicta quaerat! Dicta, blanditiis voluptatem cumque
-      obcaecati sunt esse mollitia dolore officiis hic, dolorem itaque
-      cupiditate excepturi.dfdf
-    </h1>
+    // Center the content both vertically and horizontally
+    <div className="flex flex-col items-center justify-center h-screen p-4 text-center">
+      
+      {/* Heading */}
+      <h1>404: Page Not Found</h1>
+      
+      {/* Description */}
+      <p>
+        The page you are looking for does not exist or you do not have access.
+      </p>
+    </div>
   );
 }
+
 export default NotFound;
